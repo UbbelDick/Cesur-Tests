@@ -1,0 +1,868 @@
+{
+  "Questions": [
+    {
+      "Pregunta": "1.¿Qué representan las flechas en un diagrama de secuencia?:",
+      "Respuestas": [
+        "a. Mensajes entre objetos.",
+        "b. Relaciones de herencia.",
+        "c. Transiciones de estados."
+      ],
+      "Respuesta_correcta": "Mensajes entre objetos."
+    },
+    {
+      "Pregunta": "2.¿Qué representan las líneas de conexión entre objetos en un diagrama de colaboración?:",
+      "Respuestas": [
+        "a. Mensajes",
+        "b. Relaciones de herencia",
+        "c. Atributos"
+      ],
+      "Respuesta_correcta": "Mensajes"
+    },
+    {
+      "Pregunta": "3.¿Cuál es uno de los principales beneficios de la refactorización en Java?:",
+      "Respuestas": [
+        "a. Añadir nuevas características al software",
+        "b. Aumentar la velocidad de ejecución del programa",
+        "c. Mejorar la legibilidad, mantenibilidad y calidad del código"
+      ],
+      "Respuesta_correcta": "Mejorar la legibilidad, mantenibilidad y calidad del código"
+    },
+    {
+      "Pregunta": "4.¿Qué tipo de sistema de control de versiones es Mercurial?:",
+      "Respuestas": [
+        "a. Centralizado",
+        "b. Distribuido",
+        "c. Basado en la nube"
+      ],
+      "Respuesta_correcta": "Distribuido"
+    },
+    {
+      "Pregunta": "5.Crear un nuevo método a partir de un fragmento de código de un miembro existente lo realiza la operación...:",
+      "Respuestas": [
+        "a. Métodos en línea.",
+        "b. Extraer método.",
+        "c. Crear método."
+      ],
+      "Respuesta_correcta": "Extraer método."
+    },
+    {
+      "Pregunta": "6.Realizar una transformación del código sin que cambie el funcionamiento se denomina…:",
+      "Respuestas": [
+        "a. refactorización.",
+        "b. recodificación.",
+        "c. transformación."
+      ],
+      "Respuesta_correcta": "refactorización."
+    },
+    {
+      "Pregunta": "7.Un almacen central de datos es un repositorio que tiene...:",
+      "Respuestas": [
+        "a. Subversion.",
+        "b. Git.",
+        "c. ninguno de los dos."
+      ],
+      "Respuesta_correcta": "Subversion."
+    },
+    {
+      "Pregunta": "8.Cuando se componen objetos que son instancias de una clase por referencia, también se le denomina…:",
+      "Respuestas": [
+        "a. composición.",
+        "b. agregación.",
+        "c. estática."
+      ],
+      "Respuesta_correcta": "agregación."
+    },
+    {
+      "Pregunta": "9.El símbolo ~ en un diagrama de clases representa…:",
+      "Respuestas": [
+        "a. La visibilidad del paquete.",
+        "b. Que un atributo es público.",
+        "c. Que un atributo es privado."
+      ],
+      "Respuesta_correcta": "La visibilidad del paquete."
+    },
+    {
+      "Pregunta": "10.Si un atributo o método es visible solo dentro de la clase pero pueden acceder sus subclases, este será…:",
+      "Respuestas": [
+        "a. publico.",
+        "b. protegido.",
+        "c. privado."
+      ],
+      "Respuesta_correcta": "protegido."
+    },
+    {
+      "Pregunta": "11.Si un atributo o método es visible solo dentro de la clase, este será…:",
+      "Respuestas": [
+        "a. publico.",
+        "b. protegido.",
+        "c. privado."
+      ],
+      "Respuesta_correcta": "privado."
+    },
+    {
+      "Pregunta": "12.¿Qué elemento se utiliza para representar mensajes entre objetos en un diagrama de secuencia?:",
+      "Respuestas": [
+        "a. Flechas",
+        "b. Líneas sólidas",
+        "c. Flechas con etiquetas"
+      ],
+      "Respuesta_correcta": "Flechas con etiquetas"
+    },
+    {
+      "Pregunta": "13.¿Qué elemento se utiliza para representar objetos en un diagrama de colaboración?:",
+      "Respuestas": [
+        "a. Flechas.",
+        "b. Líneas punteadas.",
+        "c. Rectángulos."
+      ],
+      "Respuesta_correcta": "Rectángulos."
+    },
+    {
+      "Pregunta": "14.El diagrama de secuencia da detalle a…:",
+      "Respuestas": [
+        "a. el diagrama de actividad.",
+        "b. los casos de uso.",
+        "c. el diagrama de clases."
+      ],
+      "Respuesta_correcta": "los casos de uso."
+    },
+    {
+      "Pregunta": "15.El diagrama encargado de modelar el paso de mensajes entre objetos es…:",
+      "Respuestas": [
+        "a. El diagrama de casos de uso.",
+        "b. El diagrama de colaboración.",
+        "c. El diagrama de secuencia."
+      ],
+      "Respuesta_correcta": "El diagrama de secuencia."
+    },
+    {
+      "Pregunta": "16.¿Cuál es uno de los principales usos de GitHub en la comunidad de desarrollo de software?:",
+      "Respuestas": [
+        "a. Almacenar proyectos privados exclusivamente",
+        "b. Realizar pruebas unitarias de código",
+        "c. Compartir y colaborar en proyectos de código abierto"
+      ],
+      "Respuesta_correcta": "Compartir y colaborar en proyectos de código abierto"
+    },
+    {
+      "Pregunta": "17.Las mejores pruebas para realizar mientras estamos refactorizando son…:",
+      "Respuestas": [
+        "a. Las pruebas unitarias.",
+        "b. Ninguna de las dos, da igual.",
+        "c. Las pruebas de integración."
+      ],
+      "Respuesta_correcta": "Las pruebas unitarias."
+    },
+    {
+      "Pregunta": "18.En Eclipse, ¿cómo se accede a las herramientas de refactorización?:",
+      "Respuestas": [
+        "a. En el menú \"Archivo\" seleccionando \"Nueva Refactorización\"",
+        "b. Haciendo clic con el botón derecho en el código fuente y seleccionando \"Refactor\"",
+        "c. A través del menú \"Ayuda\""
+      ],
+      "Respuesta_correcta": "Haciendo clic con el botón acuerdo en el código fuente y seleccionando \"Refactor\""
+    },
+    {
+      "Pregunta": "19.¿Cuál es el propósito principal de un repositorio Git?:",
+      "Respuestas": [
+        "a. Almacenar archivos de manera temporal",
+        "b. Almacenar solo archivos binarios",
+        "c. Mantener un historial de cambios y facilitar la colaboración en proyectos"
+      ],
+      "Respuesta_correcta": "Mantener un historial de cambios y facilitar la colaboración en proyectos"
+    },
+    {
+      "Pregunta": "20.Fomenta el uso de mejores métodos de codificación, dando énfasis a métodos discretos y reutilizables es una ventaja propia de…:",
+      "Respuestas": [
+        "a. extraer método.",
+        "b. pruebas de regresión.",
+        "c. métodos en línea."
+      ],
+      "Respuesta_correcta": "extraer método."
+    },
+    {
+      "Pregunta": "21.¿Cuál es el objetivo principal del control de versiones?:",
+      "Respuestas": [
+        "a. Realizar pruebas unitarias en el código",
+        "b. Ocultar el código fuente a los desarrolladores",
+        "c. Rastrear cambios en el código fuente y facilitar la colaboración entre equipos"
+      ],
+      "Respuesta_correcta": "Realizar pruebas unitarias en el código"
+    },
+    {
+      "Pregunta": "22.¿Por qué es importante la documentación en el desarrollo de software?",
+      "Respuestas": [
+        "a. Para facilitar la comprensión, mantenimiento y colaboración en el proyecto",
+        "b. Para aumentar el tamaño del código fuente",
+        "c. Para ocultar información crítica sobre el proyecto"
+      ],
+      "Respuesta_correcta": "Para facilitar la comprensión, mantenimiento y colaboración en el proyecto"
+    },
+    {
+      "Pregunta": "23.Para que la herencia sea clara debe responder a la afirmación…:",
+      "Respuestas": [
+        "a. A la afirmación “es-un”.",
+        "b. A la afirmación “se corresponde con”.",
+        "c. Ninguna afirmación."
+      ],
+      "Respuesta_correcta": "A la afirmación “es-un”."
+    },
+    {
+      "Pregunta": "24.Un conjunto de objetos que comparten los mismos atributos se denomina…:",
+      "Respuestas": [
+        "a. función.",
+        "b. clase.",
+        "c. programa."
+      ],
+      "Respuesta_correcta": "clase."
+    },
+    {
+      "Pregunta": "25.Una subclase hereda los métodos y atributos de su superclase.:",
+      "Respuestas": [
+        "a. Si, siempre.",
+        "b. Sólo si se declara como protegido.",
+        "c. Depende de cómo se defina (público o privado)."
+      ],
+      "Respuesta_correcta": "Si, siempre."
+    },
+    {
+      "Pregunta": "26.La parte superior de una clase indica…:",
+      "Respuestas": [
+        "a. el nombre.",
+        "b. los métodos.",
+        "c. los atributos."
+      ],
+      "Respuesta_correcta": "el nombre."
+    },
+    {
+      "Pregunta": "27.Si el atributo o método en un diagrama de clase tiene el símbolo + este va a ser…:",
+      "Respuestas": [
+        "a. privado.",
+        "b. protegido.",
+        "c. publico."
+      ],
+      "Respuesta_correcta": "publico."
+    },
+    {
+      "Pregunta": "28.Si el atributo o método en un diagrama de clase tiene el símbolo # este va a ser…:",
+      "Respuestas": [
+        "a. publico.",
+        "b. protegido.",
+        "c. privado."
+      ],
+      "Respuesta_correcta": "protegido."
+    },
+    {
+      "Pregunta": "29.UML es un lenguaje…:",
+      "Respuestas": [
+        "a. estructurado.",
+        "b. gráfico.",
+        "c. orientado a objetos."
+      ],
+      "Respuesta_correcta": "gráfico."
+    },
+    {
+      "Pregunta": "30.En la representación de la clase, la parte intermedia del gráfico representa…:",
+      "Respuestas": [
+        "a. Los métodos.",
+        "b. El nombre de la clase.",
+        "c. Los atributos."
+      ],
+      "Respuesta_correcta": "Los atributos."
+    },
+    {
+      "Pregunta": "31.La parte inferior de una clase indica…:",
+      "Respuestas": [
+        "a. los métodos.",
+        "b. los atributos.",
+        "c. el nombre."
+      ],
+      "Respuesta_correcta": "los métodos."
+    },
+    {
+      "Pregunta": "32.¿Cuál es el propósito principal de un diagrama de secuencia?:",
+      "Respuestas": [
+        "a. Representar el flujo de interacción entre objetos en un escenario específico.",
+        "b. Visualizar el estado actual de un objeto.",
+        "c. Mostrar la estructura de clases de un sistema."
+      ],
+      "Respuesta_correcta": "Representar el flujo de interacción entre objetos en un escenario específico."
+    },
+    {
+      "Pregunta": "33.¿Qué elemento se utiliza para representar una decisión en un diagrama de actividad?:",
+      "Respuestas": [
+        "a. Rectángulo con esquinas redondeadas.",
+        "b. Flechas.",
+        "c. Rombo."
+      ],
+      "Respuesta_correcta": "Rombo."
+    },
+    {
+      "Pregunta": "34.¿Qué tipo de diagrama se utiliza para representar el flujo de trabajo o el comportamiento de un proceso?:",
+      "Respuestas": [
+        "a. Diagrama de actividad",
+        "b. Diagrama de colaboración",
+        "c. Diagrama de secuencia"
+      ],
+      "Respuesta_correcta": "Diagrama de actividad"
+    },
+    {
+      "Pregunta": "35.El diagrama encargado de modelar interacciones entre objetos es…:",
+      "Respuestas": [
+        "a. El diagrama de casos de uso.",
+        "b. El diagrama de colaboración.",
+        "c. El diagrama de actividad."
+      ],
+      "Respuesta_correcta": "El diagrama de colaboración."
+    },
+    {
+      "Pregunta": "36.¿Qué tipo de diagrama se utiliza comúnmente para modelar procesos y flujos de trabajo?:",
+      "Respuestas": [
+        "a.Diagrama de colaboración.",
+        "b.Diagrama de actividad.",
+        "c.Diagrama de secuencia."
+      ],
+      "Respuesta_correcta": "Diagrama de actividad."
+    },
+    {
+      "Pregunta": "37.En el diagrama de estados una operación instantánea asociada a un evento es…:",
+      "Respuestas": [
+        "a.un estado.",
+        "b.una acción.",
+        "c.una actividad."
+      ],
+      "Respuesta_correcta": "una acción"
+    },
+    {
+      "Pregunta": "38.¿Cuál es el propósito principal de un diagrama de casos de uso?",
+      "Respuestas": [
+        "a.Representar los estados de un objeto.",
+        "b.Mostrar la interacción entre objetos.",
+        "c.Visualizar las funcionalidades del sistema desde la perspectiva del usuario."
+      ],
+      "Respuesta_correcta": "Visualizar las funcionalidades del sistema desde la perspectiva del usuario."
+    },
+    {
+      "Pregunta": "39.El diagrama encargado de modelar la distribución del sistema es…:",
+      "Respuestas": [
+        "a.El diagrama de componentes.",
+        "b.El diagrama de objetos.",
+        "c.El diagrama de implementación."
+      ],
+      "Respuesta_correcta": "El diagrama de implementación."
+    },
+    {
+      "Pregunta": "40.¿Qué representa una transición en un diagrama de estados?:",
+      "Respuestas": [
+        "a.Una relación de herencia.",
+        "b.Un mensaje entre objetos.",
+        "c.Un cambio de estado."
+      ],
+      "Respuesta_correcta": "Un cambio de estado."
+    },
+    {
+      "Pregunta": "41.¿Qué representan los elipses en un diagrama de casos de uso?:",
+      "Respuestas": [
+        "a.Casos de uso",
+        "b.Actores",
+        "c.Relaciones"
+      ],
+      "Respuesta_correcta": "Casos de uso"
+    },
+    {
+      "Pregunta": "42.¿Qué es un actor en un diagrama de casos de uso?:",
+      "Respuestas": [
+        "a.Una interacción entre objetos.",
+        "b.Un objeto del sistema.",
+        "c.Un rol externo que interactúa con el sistema."
+      ],
+      "Respuesta_correcta": "Un rol externo que interactúa con el sistema."
+    },
+    {
+      "Pregunta": "43.El diagrama encargado de modelar el comportamiento de los casos de uso, objetos u operaciones es…:",
+      "Respuestas": [
+        "a.El diagrama de casos de uso.",
+        "b.El diagrama de colaboración.",
+        "c.El diagrama de actividad."
+      ],
+      "Respuesta_correcta": "El diagrama de actividad."
+    },
+    {
+      "Pregunta": "44.La interacción de un conjunto de objetos de una aplicación a través del tiempo se denomina…:",
+      "Respuestas": [
+        "a.diagrama de secuencia.",
+        "b.diagrama de colaboración.",
+        "c.diagrama de casos de uso."
+      ],
+      "Respuesta_correcta": "diagrama de secuencia."
+    },
+    {
+      "Pregunta": "45.Los usuarios en los diagramas de casos de uso se consideran …:",
+      "Respuestas": [
+        "a.actores.",
+        "b.usuarios.",
+        "c.personajes."
+      ],
+      "Respuesta_correcta": "actores."
+    },
+    {
+      "Pregunta": "46.CVS versiona...:",
+      "Respuestas": [
+        "a.ficheros.",
+        "b.ambas cosas.",
+        "c.directorios."
+      ],
+      "Respuesta_correcta": "ficheros."
+    },
+    {
+      "Pregunta": "47.¿Qué es Nuxeo en el contexto de la gestión de contenido empresarial (ECM)?:",
+      "Respuestas": [
+        "a.Una herramienta de diseño gráfico",
+        "b.Una plataforma de ECM de código abierto",
+        "c.Un lenguaje de programación"
+      ],
+      "Respuesta_correcta": "Una plataforma de ECM de código abierto"
+    },
+    {
+      "Pregunta": "48.¿Cuál es el riesgo potencial de realizar refactorizaciones sin pruebas unitarias adecuadas?:",
+      "Respuestas": [
+        "a.Mejorar significativamente el rendimiento del programa",
+        "b.Las refactorizaciones siempre son seguras, no hay riesgos",
+        "c.Introducir errores en el código sin darse cuenta"
+      ],
+      "Respuesta_correcta": "Introducir errores en el código sin darse cuenta"
+    },
+    {
+      "Pregunta": "49.En un sistema de control de versiones que no hay un repositorio central se trata de los...:",
+      "Respuestas": [
+        "a.Distribuidos.",
+        "b.ninguno de los dos.",
+        "c.Centralizados."
+      ],
+      "Respuesta_correcta": "Distribuidos."
+    },
+    {
+      "Pregunta": "50.Los repositorios se utilizan en…:",
+      "Respuestas": [
+        "a.Ambas.",
+        "b.Git.",
+        "c.Subversion."
+      ],
+      "Respuesta_correcta": "Ambas."
+    },
+    {
+      "Pregunta": "51.¿Qué tipo de sistema de control de versiones es CVS?:",
+      "Respuestas": [
+        "a.Distribuido",
+        "b.Centralizado",
+        "c.Basado en la nube"
+      ],
+      "Respuesta_correcta": "Centralizado"
+    },
+    {
+      "Pregunta": "52.En Eclipse, ¿qué función te permite ver los cambios que se aplicarán antes de realizar una refactorización?:",
+      "Respuestas": [
+        "a.Revisión de código",
+        "b.Vista previa de refactorización",
+        "c.Análisis de impacto"
+      ],
+      "Respuesta_correcta": "Vista previa de refactorización"
+    },
+    {
+      "Pregunta": "53.La refactorización es...:",
+      "Respuestas": [
+        "a.Es realizar una transformación al software preservando su comportamiento.",
+        "b.Es cambiar algunas funcionalidades del software.",
+        "c.Es cambiar tanto el código como la funcionalidad del software."
+      ],
+      "Respuesta_correcta": "Es realizar una transformación al software preservando su comportamiento."
+    },
+    {
+      "Pregunta": "54.¿Cuál de las siguientes afirmaciones es cierta acerca de la refactorización en Java?: código   código",
+      "Respuestas": [
+        "a.La refactorización siempre introduce nuevos errores en el código",
+        "b.La refactorización es una práctica que debe evitarse en el desarrollo de software",
+        "c.La refactorización se realiza de manera controlada y sistemática para mejorar el"
+      ],
+      "Respuesta_correcta": "La refactorización se realiza de manera controlada y sistemática para mejorar el"
+    },
+    {
+      "Pregunta": "55.¿Cuál es uno de los objetivos principales de las herramientas de gestión de contenido como Alfresco, Athento y Nuxeo?: eficiente  eficiente",
+      "Respuestas": [
+        "a.Realizar análisis de mercado",
+        "b.Ayudar a las organizaciones a administrar y controlar su contenido de manera",
+        "c.Facilitar la gestión de proyectos de construcción"
+      ],
+      "Respuesta_correcta": "Ayudar a las organizaciones a administrar y controlar su contenido de manera"
+    },
+    {
+      "Pregunta": "56.La agregación por valor es un tipo de relación…:",
+      "Respuestas": [
+        "a.Por referencia.",
+        "b.Estática.",
+        "c.Dinámica."
+      ],
+      "Respuesta_correcta": "Estática."
+    },
+    {
+      "Pregunta": "57.Cuando un método o atributo es público será visible…:",
+      "Respuestas": [
+        "a.Dentro y fuera de la clase.",
+        "b.Desde cualquier clase hija.",
+        "c.Sólo dentro de la clase."
+      ],
+      "Respuesta_correcta": "Dentro y fuera de la clase."
+    },
+    {
+      "Pregunta": "58.Una flecha punteada entre dos clases indica una…:",
+      "Respuestas": [
+        "a.agregación.",
+        "b.instanciación.",
+        "c.composición."
+      ],
+      "Respuesta_correcta": "instanciación."
+    },
+    {
+      "Pregunta": "59.Si el atributo o método en un diagrama de clase tiene el símbolo - este va a ser…:",
+      "Respuestas": [
+        "a.protegido.",
+        "b.privado.",
+        "c.publico."
+      ],
+      "Respuesta_correcta": "privado."
+    },
+    {
+      "Pregunta": "60.Los diagramas de clases se especifican:",
+      "Respuestas": [
+        "a.Con nuestras palabras.",
+        "b.Con notación UML.",
+        "c.Con cualquier lenguaje de programación."
+      ],
+      "Respuesta_correcta": "Con notación UML."
+    },
+    {
+      "Pregunta": "61.¿Cuál es el propósito principal de un diagrama de clase?:",
+      "Respuestas": [
+        "a.Modelar las clases y relaciones en un sistema.",
+        "b.Visualizar datos en una base de datos.",
+        "c.Mostrar el flujo de control en un programa."
+      ],
+      "Respuesta_correcta": "Modelar las clases y relaciones en un sistema."
+    },
+    {
+      "Pregunta": "62.¿Qué representa una elipse en un diagrama de casos de uso?:",
+      "Respuestas": [
+        "a.Un actor.",
+        "b.Una relación de dependencia.",
+        "c.Un caso de uso."
+      ],
+      "Respuesta_correcta": "Un caso de uso."
+    },
+    {
+      "Pregunta": "63.El diagrama UML que muestra el flujo de control entre actividades se denomina…:",
+      "Respuestas": [
+        "a.diagrama de casos de uso.",
+        "b.diagrama de actividad.",
+        "c.diagrama de secuencia."
+      ],
+      "Respuesta_correcta": "diagrama de actividad."
+    },
+    {
+      "Pregunta": "64.El uso de una flecha simple en el diagrama de casos de uso representa…:",
+      "Respuestas": [
+        "a.asociación.",
+        "b.exclusión.",
+        "c.inclusión."
+      ],
+      "Respuesta_correcta": "asociación."
+    },
+    {
+      "Pregunta": "65.El uso de la notación <<extends>> en el diagrama de casos de uso representa…:",
+      "Respuestas": [
+        "a.inclusión.",
+        "b.exclusión.",
+        "c.extensión."
+      ],
+      "Respuesta_correcta": "extensión."
+    },
+    {
+      "Pregunta": "66.Una línea continua entre dos objetos en un diagrama de colaboración representa…:",
+      "Respuestas": [
+        "a.un objeto.",
+        "b.un mensaje.",
+        "c.un vínculo."
+      ],
+      "Respuesta_correcta": "un vínculo."
+    },
+    {
+      "Pregunta": "67.¿Qué elemento se utiliza para representar una acción en un diagrama de actividad?:",
+      "Respuestas": [
+        "a.Rombo",
+        "b.Rectángulo con esquinas redondeadas",
+        "c.Flechas"
+      ],
+      "Respuesta_correcta": "Rectángulo con esquinas redondeadas"
+    },
+    {
+      "Pregunta": "68.¿Qué tipo de diagrama se utiliza comúnmente para modelar el comportamiento de un objeto a lo largo del tiempo?:",
+      "Respuestas": [
+        "a.Diagrama de secuencia",
+        "b.Diagrama de actividad",
+        "c.Diagrama de estados"
+      ],
+      "Respuesta_correcta": "Diagrama de secuencia"
+    },
+    {
+      "Pregunta": "69.En los diagramas de caso de uso, las relaciones de los casos de uso que van seguidos de otro caso de uso de forma secuencial se denomina…: Pregunta 33Respuesta",
+      "Respuestas": [
+        "a.Inclusión.",
+        "b.Asociación.",
+        "c.Exclusión."
+      ],
+      "Respuesta_correcta": "Inclusión."
+    },
+    {
+      "Pregunta": "70.¿Cuál es el propósito principal de un diagrama de actividad?:",
+      "Respuestas": [
+        "a.Representar el flujo de trabajo o el comportamiento de un proceso.",
+        "b.Mostrar la estructura de clases de un sistema.",
+        "c.Visualizar cómo los objetos se comunican en una colaboración específica."
+      ],
+      "Respuesta_correcta": "Representar el flujo de trabajo o el comportamiento de un proceso."
+    },
+    {
+      "Pregunta": "71.El diagrama de colaboración es un diagrama…:",
+      "Respuestas": [
+        "a.de casos de uso.",
+        "b.de interacción.",
+        "c.de clases."
+      ],
+      "Respuesta_correcta": "de interacción."
+    },
+    {
+      "Pregunta": "72.UML es …:",
+      "Respuestas": [
+        "a.un entorno de desarrollo.",
+        "b.una notación.",
+        "c.un programa."
+      ],
+      "Respuesta_correcta": "una notación."
+    },
+    {
+      "Pregunta": "73. La gestión documental se puede realizar con el software…:",
+      "Respuestas": [
+        "a.Ambas son correctas.",
+        "b.Sharepoint.",
+        "c.Alfresco."
+      ],
+      "Respuesta_correcta": "Ambas son correctas."
+    },
+    {
+      "Pregunta": "74. ¿Cuál es el propósito principal de agregar comentarios al código durante la programación?:",
+      "Respuestas": [
+        "a.Aumentar la confusión en el código",
+        "b.Ocultar información importante",
+        "c.Explicar el funcionamiento y la lógica del código para futuros desarrolladores"
+      ],
+      "Respuesta_correcta": "Explicar el funcionamiento y la lógica del código para futuros desarrolladores"
+    },
+    {
+      "Pregunta": "75. ¿Qué tipo de información debería incluirse en los comentarios del código?:",
+      "Respuestas": [
+        "a.Chistes y anécdotas personales",
+        "b.Descripciones detalladas de la vida personal del programador",
+        "c.Explicaciones claras y concisas sobre el propósito de las funciones y partes del código"
+      ],
+      "Respuesta_correcta": "Explicaciones claras y concisas sobre el propósito de las funciones y partes del código"
+    },
+    {
+      "Pregunta": "76. ¿Qué es el control de versiones en el desarrollo de software?:",
+      "Respuestas": [
+        "a.Un método para compilar y ejecutar programas",
+        "b.Una técnica para ocultar el código fuente",
+        "c.Un proceso para gestionar cambios en el código fuente a lo largo del tiempo"
+      ],
+      "Respuesta_correcta": "Un proceso para gestionar cambios en el código fuente a lo largo del tiempo"
+    },
+    {
+      "Pregunta": "77. ¿Qué significa \"refactorización\" en el contexto de la programación Java?:",
+      "Respuestas": [
+        "a.Reescribir todo el código existente",
+        "b.Crear código nuevo desde cero",
+        "c.Mejorar la estructura y diseño del código existente sin cambiar su funcionalidad"
+      ],
+      "Respuesta_correcta": "Mejorar la estructura y diseño del código existente sin cambiar su funcionalidad"
+    },
+    {
+      "Pregunta": "78. Las áreas conflictivas de la refactorización son...:",
+      "Respuestas": [
+        "a.ambas.",
+        "b.Las bases de datos.",
+        "c.los cambios de interfaces."
+      ],
+      "Respuesta_correcta": "ambas."
+    },
+    {
+      "Pregunta": "79. ¿Qué tipo de refactorización se utiliza para extraer un fragmento de código en un nuevo método para mejorar la reutilización y la legibilidad?:",
+      "Respuestas": [
+        "a.Renombramiento de variables",
+        "b.Extracción de método",
+        "c.Eliminación de código"
+      ],
+      "Respuesta_correcta": "Extracción de método"
+    },
+    {
+      "Pregunta": "80. ¿Por qué es importante la gestión de contenido en una organización?:",
+      "Respuestas": [
+        "a.Para aumentar el costo de almacenamiento de documentos",
+        "b.Para facilitar la colaboración, el acceso y la recuperación de información relevante",
+        "c.Para dificultar la búsqueda de información"
+      ],
+      "Respuesta_correcta": "Para facilitar la colaboración, el acceso y la recuperación de información relevante"
+    },
+    {
+      "Pregunta": "81. ¿Qué es GitHub en el contexto del control de versiones?:",
+      "Respuestas": [
+        "a.Un sistema de control de versiones centralizado",
+        "b.Una plataforma de desarrollo colaborativo basada en Git",
+        "c.Una herramienta de depuración"
+      ],
+      "Respuesta_correcta": "Una plataforma de desarrollo colaborativo basada en Git"
+    },
+    {
+      "Pregunta": "82. ¿Cómo pueden los comentarios en el código ayudar en la detección temprana de errores?: problemas  problemas",
+      "Respuestas": [
+        "a.Los comentarios no están relacionados con la detección de errores",
+        "b.Al aclarar la intención del código, lo que facilita la identificación de posibles",
+        "c.Al proporcionar soluciones instantáneas a los errores"
+      ],
+      "Respuesta_correcta": "Al aclarar la intención del código, lo que facilita la identificación de posibles"
+    },
+    {
+      "Pregunta": "83. ¿Qué es Alfresco en el contexto de la gestión de contenido empresarial (ECM)?:",
+      "Respuestas": [
+        "a.Un procesador de texto",
+        "b.Una plataforma de redes sociales",
+        "c.Un sistema de gestión de documentos de código abierto"
+      ],
+      "Respuesta_correcta": "Un sistema de gestión de documentos de código abierto"
+    },
+    {
+      "Pregunta": "84. ¿Qué característica distingue a Git de otros sistemas de control de versiones?:",
+      "Respuestas": [
+        "a.Git no admite el seguimiento de historiales de cambios",
+        "b.Git es distribuido",
+        "c.Git es centralizado"
+      ],
+      "Respuesta_correcta": "Git es distribuido"
+    },
+    {
+      "Pregunta": "85. ¿Qué elemento se utiliza para representar un estado inicial en un diagrama de estados?:",
+      "Respuestas": [
+        "a.Flechas.",
+        "b.Un pequeño círculo relleno.",
+        "c.Rectángulo con esquinas redondeadas."
+      ],
+      "Respuesta_correcta": "Un pequeño círculo relleno."
+    },
+    {
+      "Pregunta": "86. ¿Cuál es el propósito principal de un diagrama de estados?: eventos que implican el cambio de un estado a otro.  eventos que implican el cambio de un estado a otro.",
+      "Respuestas": [
+        "a.Mostrar la estructura de clases de un sistema.",
+        "b.Representar el flujo de interacción entre objetos en un escenario específico.",
+        "c.Representar los estados que puede tomar un componente o un sistema y mostrar los"
+      ],
+      "Respuesta_correcta": "Representar los estados que puede tomar un componente o un sistema y mostrar los"
+    },
+    {
+      "Pregunta": "87. ¿Cuál es el propósito principal de un diagrama de colaboración?:",
+      "Respuestas": [
+        "a.Representar el flujo de interacción entre objetos en un escenario específico.",
+        "b.Mostrar la estructura de clases de un sistema.",
+        "c.Visualizar cómo los objetos se comunican en una colaboración determinada."
+      ],
+      "Respuesta_correcta": "Visualizar cómo los objetos se comunican en una colaboración determinada."
+    },
+    {
+      "Pregunta": "88. El uso de una flecha hueca en el diagrama de casos de uso representa…:",
+      "Respuestas": [
+        "a.Generalización.",
+        "b.Asociación",
+        "c.Inclusión."
+      ],
+      "Respuesta_correcta": "Generalización."
+    },
+    {
+      "Pregunta": "89. ¿Qué elemento se utiliza para representar una transición entre estados en un diagrama de estados?:",
+      "Respuestas": [
+        "a.Rectángulos",
+        "b.Líneas con etiquetas",
+        "c.Flechas"
+      ],
+      "Respuesta_correcta": "Flechas"
+    },
+    {
+      "Pregunta": "90. En los diagramas de casos de uso, las operaciones o tareas específicas del sistema se denominan…:",
+      "Respuestas": [
+        "a.acciones.",
+        "b.casos de uso.",
+        "c.actividades."
+      ],
+      "Respuesta_correcta": "casos de uso."
+    },
+    {
+      "Pregunta": "91. ¿Qué tipo de diagrama se utiliza para mostrar la interacción entre objetos a lo largo del tiempo?:",
+      "Respuestas": [
+        "a.Diagrama de casos de uso.",
+        "b.Diagrama de actividad.",
+        "c.Diagrama de secuencia."
+      ],
+      "Respuesta_correcta": "Diagrama de secuencia."
+    },
+    {
+      "Pregunta": "92. El uso de la notación <<uses>> o <<include>> en el diagrama de casos de uso representa…:",
+      "Respuestas": [
+        "a.exclusión.",
+        "b.inclusión.",
+        "c.asociación."
+      ],
+      "Respuesta_correcta": "inclusión."
+    },
+    {
+      "Pregunta": "93. En el diagrama de estados el estado final representa…:",
+      "Respuestas": [
+        "a.que un componente ha dejado de tener cualquier interacción o actividad.",
+        "b.el fin del programa.",
+        "c.que ese estado se destruye."
+      ],
+      "Respuesta_correcta": "que un componente ha dejado de tener cualquier interacción o actividad."
+    },
+    {
+      "Pregunta": "94. ¿Qué elemento se utiliza para conectar actores y casos de uso en un diagrama de casos de uso?:",
+      "Respuestas": [
+        "a.Líneas sólidas",
+        "b.Flechas",
+        "c.Líneas punteadas"
+      ],
+      "Respuesta_correcta": "Flechas"
+    },
+    {
+      "Pregunta": "95. Crear un nuevo método a partir de un fragmento de código de un miembro existente lo realiza la operación...:",
+      "Respuestas": [
+        "a. Métodos en línea.",
+        "b. Extraer método.",
+        "c. Crear método."
+      ],
+      "Respuesta_correcta": "Extraer método."
+    },
+    {
+      "Pregunta": "96. Las planificaciones pueden dividirse en dos:",
+      "Respuestas": [
+        "a. Planificación directa o indirecta.",
+        "b. Planificación directa o inversa.",
+        "c. Planificación inversa u opuesta."
+      ],
+      "Respuesta_correcta": "Planificación directa o inversa."
+    }
+  ]
+}
