@@ -1,0 +1,2506 @@
+{
+    "Questions": [
+      {
+        "Pregunta": "En una consulta multitabla las tablas que se utilizan aparecen en:",
+        "Respuestas": [
+          "a. En el WHERE.",
+          "b. En el FROM.",
+          "c. En el SELECT."
+        ],
+        "Respuesta_correcta": "En el FROM."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguentes bases de datos es una base de datos basada en grafos?",
+        "Respuestas": [
+          "a. CouchDB",
+          "b. Apache Cassandra",
+          "c. Neo4j"
+        ],
+        "Respuesta_correcta": "Neo4j"
+      },
+      {
+        "Pregunta": "Las condiciones de búsqueda compuesta sirven para:",
+        "Respuestas": [
+          "a. Usar las palabras claves AND, OR, NOT y los paréntesis para formar condiciones complejas.",
+          "b. Combinar varias condiciones de búsqueda.",
+          "c. Ambas son correctas"
+        ],
+        "Respuesta_correcta": "Ambas son correctas"
+      },
+      {
+        "Pregunta": "Al programar un procedimiento almacenado, en una estructura condicional IF, ¿cuántas condiciones anidadas pueden indicarse?",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Solo una",
+          "c. Una o varias"
+        ],
+        "Respuesta_correcta": "Una o varias"
+      },
+      {
+        "Pregunta": "¿Qué utilidad tienen los alias que se asignan a las tablas en las consultas?",
+        "Respuestas": [
+          "a. Sirven para eliminar ambigüedades entre los nombres de las filas de las tablas.",
+          "b. Sirven para eliminar ambigüedades entre los nombres de las tablas.",
+          "c. Sirven para eliminar ambigüedades entre los nombres de columnas de las tablas."
+        ],
+        "Respuesta_correcta": "Sirven para eliminar ambigüedades entre los nombres de columnas de las tablas."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, si deseamos crear una variable donde almacenar la fecha y la hora, usaremos el tipo de dato:",
+        "Respuestas": [
+          "a. DATEANDHOUR",
+          "b. DATE",
+          "c. DATETIME"
+        ],
+        "Respuesta_correcta": "DATETIME"
+      },
+      {
+        "Pregunta": "El operador $unwind sirve para:",
+        "Respuestas": [
+          "a. Ninguna es correcta",
+          "b. Descomponer los documentos de una colección en múltiples documentos, uno por cada elemento en el array",
+          "c. Seleccionar los documentos que cumplen ciertos criterios"
+        ],
+        "Respuesta_correcta": "Descomponer los documentos de una colección en múltiples documentos, uno por cada elemento en el array"
+      },
+      {
+        "Pregunta": "¿Qué ventaja ofrece la estructura de columnas en las bases de datos de columnas en comparación con las bases de datos SQL tradicionales?",
+        "Respuestas": [
+          "a. Compresión más eficiente de los datos.",
+          "b. Mayor velocidad de escritura.",
+          "c. Mayor eficiencia en consultas que involucran subconjuntos de filas"
+        ],
+        "Respuesta_correcta": "Compresión más eficiente de los datos."
+      },
+      {
+        "Pregunta": "Las bases de datos clave-valor se caracterizan por::",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Estructurar los datos en columnas en lugar de filas.",
+          "c. Almacenar la información en ficheros con formato XML o JSON."
+        ],
+        "Respuesta_correcta": "Ninguna es correcta."
+      },
+      {
+        "Pregunta": "¿Qué tipo de base de datos NoSQL se estructura en nodos y aristas?",
+        "Respuestas": [
+          "a. Clave-valor.",
+          "b. Basada en grafos.",
+          "c. Documental."
+        ],
+        "Respuesta_correcta": "Basada en grafos."
+      },
+      {
+        "Pregunta": "En PL/SQL, ¿qué tipo de bucle se repite tantas veces como sea necesario hasta que se fuerza su salida con la instrucción EXIT?",
+        "Respuestas": [
+          "a. LOOP",
+          "b. FOR",
+          "c. WHILE"
+        ],
+        "Respuesta_correcta": "LOOP"
+      },
+      {
+        "Pregunta": "En Oracle, ¿cómo dispara un usuario sus propias excepciones?",
+        "Respuestas": [
+          "a. RETURN nombre_excepcion",
+          "b. LAUNCH nombre_excepcion",
+          "c. RAISE nombre_excepcion"
+        ],
+        "Respuesta_correcta": "RAISE nombre_excepcion"
+      },
+      {
+        "Pregunta": "La siguiente sentencia SQL: SELECT EMPRESA FROM CLIENTES WHERE EMPRESA LIKE '%$%' mostrará:",
+        "Respuestas": [
+          "a. Las empresas con un caracter % en su nombre",
+          "b. Las empresas con un caracter $ en su nombre.",
+          "c. Todas las empresas"
+        ],
+        "Respuesta_correcta": "Las empresas con un caracter $ en su nombre."
+      },
+      {
+        "Pregunta": "El lenguaje PL/SQL pertenece a:",
+        "Respuestas": [
+          "a. Oracle",
+          "b. Microsoft",
+          "c. MySQL"
+        ],
+        "Respuesta_correcta": "Oracle"
+      },
+      {
+        "Pregunta": "En el procesamiento de una consulta multitabla, de estas opciones, lo último que se realiza es:",
+        "Respuestas": [
+          "a. Eliminar las filas duplicadas si se especifica SELECT DISTINCT.",
+          "b. El producto de las tablas indicadas en la cláusula FROM.",
+          "c. La cláusula WHERE, si la hubiera."
+        ],
+        "Respuesta_correcta": "Eliminar las filas duplicadas si se especifica SELECT DISTINCT."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de bucle WHILE del lenguaje PL/SQL es correcta?",
+        "Respuestas": [
+          "a. WHILE --Instrucciones LOOP (expresión) END LOOP;",
+          "b. WHILE (expresión) LOOP --Instrucciones END LOOP;",
+          "c. WHILE LOOP (expresión) --Instrucciones END LOOP;"
+        ],
+        "Respuesta_correcta": "WHILE (expresión) LOOP --Instrucciones END LOOP;"
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado del lenguaje PL/SQL, las sentencias SQL a ejecutar se indica después de la palabra:",
+        "Respuestas": [
+          "a. CREATE PROCEDURE",
+          "b. AS o IS",
+          "c. BEGIN"
+        ],
+        "Respuesta_correcta": "BEGIN"
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta respecto a las bases de datos NoSQL:",
+        "Respuestas": [
+          "a. No pueden manejar grandes volúmenes de datos.",
+          "b. La elección de una base de datos adecuada depende de las necesidades específicas de cada proyecto.",
+          "c. Son extremadamente costosas."
+        ],
+        "Respuesta_correcta": "La elección de una base de datos adecuada depende de las necesidades específicas de cada proyecto."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de control de flujo IF del lenguaje PL/SQL es correcta?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. IF (expresión) THEN --Instrucciones ELSIF (expresión) --Instrucciones END IF;",
+          "c. IF (expresión) THEN --Instrucciones ELSE --Instrucciones END IF;"
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Qué significa el término NoSQL en el contexto de las bases de datos?",
+        "Respuestas": [
+          "a. No está relacionado con SQL.",
+          "b. Not Only SQL.",
+          "c. No-SQL."
+        ],
+        "Respuesta_correcta": "Not Only SQL."
+      },
+      {
+        "Pregunta": "¿Qué base datos ofrece una capa de abstracción llamada CQL?",
+        "Respuestas": [
+          "a. Riak.",
+          "b. Apache Cassandra.",
+          "c. Neo4j."
+        ],
+        "Respuesta_correcta": "Apache Cassandra."
+      },
+      {
+        "Pregunta": "En una cláusula SELECT podemos indicar una lista de:",
+        "Respuestas": [
+          "a. Constantes o expresiones SQL.",
+          "b. Ambas son correctas.",
+          "c. Nombres de columnas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En PL/SQL, ¿qué tipo de bucle se repite tantas veces como se le indique con los identificadores de inicio y final?",
+        "Respuestas": [
+          "a. LOOP",
+          "b. WHILE",
+          "c. FOR"
+        ],
+        "Respuesta_correcta": "FOR"
+      },
+      {
+        "Pregunta": "En una consulta padre/hijo:",
+        "Respuestas": [
+          "a. La tabla que contiene la clave ajena es el hijo en la relación y la tabla con la clave primaria es el padre.",
+          "b. La tabla que se coloca a la derecha es el hijo en la relación y la tabla que se coloca a la izquierda es el padre.",
+          "c. La tabla que contiene la clave ajena es el padre en la relación y la tabla con la clave primaria es el hijo."
+        ],
+        "Respuesta_correcta": "La tabla que contiene la clave ajena es el hijo en la relación y la tabla con la clave primaria es el padre."
+      },
+      {
+        "Pregunta": "¿Por qué las bases de datos NoSQL se consideran una alternativa a las bases de datos relacionales?",
+        "Respuestas": [
+          "a. Se basan en el modelo de tablas relacionales.",
+          "b. Ofrecen soporte exclusivo para SQL.",
+          "c. Pueden manejar grandes volúmenes de datos."
+        ],
+        "Respuesta_correcta": "Pueden manejar grandes volúmenes de datos."
+      },
+      {
+        "Pregunta": "Para pasar argumentos a un procedimiento almacenado, podemos usar la notación nominal, que consiste en:",
+        "Respuestas": [
+          "a. Pasar los valores nombrando explícitamente el parámetro, y en orden alfabético.",
+          "b. Pasar los valores en cualquier orden, nombrando explícitamente el parámetro.",
+          "c. Pasar los valores nombrando el parámetro, y en el orden especificado en la creación del procedimiento."
+        ],
+        "Respuesta_correcta": "Pasar los valores en cualquier orden, nombrando explícitamente el parámetro."
+      },
+      {
+        "Pregunta": "¿Cuáles son los principales tipos de composiciones en MySQL?",
+        "Respuestas": [
+          "a. Interna.",
+          "b. Externa por la izquierda y externa por la derecha.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "Cuando ya tenemos creado un procedimiento almacenado en nuestra base de datos, ¿cómo podemos modificarlo?",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Simplemente con un comando REPLACE PROCEDURE, indicando el nombre y los cambios.",
+          "c. Escribiendo de nuevo todo el script pero usando el comando la opción REPLACE así: CREATE OR REPLACE PROCEDURE ..."
+        ],
+        "Respuesta_correcta": "Escribiendo de nuevo todo el script pero usando el comando la opción REPLACE así: CREATE OR REPLACE PROCEDURE ..."
+      },
+      {
+        "Pregunta": "Cuando hablamos de las propiedades ACID de una transacción, a qué nos referimos cuando hablamos de atomicidad:",
+        "Respuestas": [
+          "a. A que una vez se ha confirmado la transacción, todos los cambios realizados se mantendrán de manera permanente.",
+          "b. A que se garantiza que todas las operaciones de una transacción se ejecuten como una unidad atómica.",
+          "c. A que cada transacción se debe ejecutar de manera aislada."
+        ],
+        "Respuesta_correcta": "A que se garantiza que todas las operaciones de una transacción se ejecuten como una unidad atómica."
+      },
+      {
+        "Pregunta": "¿Cuál es el comando para realizar búsquedas en MongoDB?",
+        "Respuestas": [
+          "a. look",
+          "b. find",
+          "c. select"
+        ],
+        "Respuesta_correcta": "find"
+      },
+      {
+        "Pregunta": "La estructura de un bloque en un procedimiento almacenado se compone por:",
+        "Respuestas": [
+          "a. Sección declarativa y de ejecución.",
+          "b. Sección declarativa, de ejecución y de rutinas.",
+          "c. Sección declarativa, de ejecución y de excepciones."
+        ],
+        "Respuesta_correcta": "Sección declarativa, de ejecución y de excepciones."
+      },
+      {
+        "Pregunta": "Una composición con criterios de selección de fila es:",
+        "Respuestas": [
+          "a. Una consulta SQL con dos tablas, indicando en la cláusula WHERE condiciones de búsqueda diferentes a las columnas de emparejamiento.",
+          "b. La unión de varias consultas SQL, ambas con la misma condición WHERE.",
+          "c. Una consulta SQL con dos tablas, indicando en la lista de selección del SELECT columnas de ambas tablas."
+        ],
+        "Respuesta_correcta": "Una consulta SQL con dos tablas, indicando en la cláusula WHERE condiciones de búsqueda diferentes a las columnas de emparejamiento."
+      },
+      {
+        "Pregunta": "¿De cuántas maneras podemos usar AND en MongoDB?",
+        "Respuestas": [
+          "a. De manera explícita con $and.",
+          "b. Ambas son correctas.",
+          "c. De manera implícita usando una coma."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de bucle LOOP del lenguaje PL/SQL es correcta?",
+        "Respuestas": [
+          "a. LOOP --Instrucciones IF (expresión) THEN --Instrucciones EXIT; END IF; END LOOP;",
+          "b. LOOP --Instrucciones IF (expresión) THEN --Instrucciones END IF; END LOOP;",
+          "c. LOOP --Instrucciones END LOOP;"
+        ],
+        "Respuesta_correcta": "LOOP --Instrucciones IF (expresión) THEN --Instrucciones EXIT; END IF; END LOOP;"
+      },
+      {
+        "Pregunta": "¿Cuándo devuelve FALSE el test de comparación con subconsultas ALL?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Cuando ninguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE.",
+          "c. Cuando alguna de las comparaciones con los resultados de la columna de la subconsulta es FALSE."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Cómo podemos ejecutar un procedimiento almacenado que ya hemos creado?",
+        "Respuestas": [
+          "a. Usando la sentencia EXEC nombre_procedimiento() y pasándole los parámetros, si los tiene.",
+          "b. Usando la sentencia EJECUTAR nombre_procedimiento() y pasándole los parámetros, si los tiene.",
+          "c. Usando la sentencia LLAMADA_A nombre_procedimiento() y pasándole los parámetros, si los tiene."
+        ],
+        "Respuesta_correcta": "Usando la sentencia EXEC nombre_procedimiento() y pasándole los parámetros, si los tiene."
+      },
+      {
+        "Pregunta": "En MongoDB, la sección project se usa para:",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Para especiifcar los filtros a aplicar en la consulta.",
+          "c. Especificar los campos que queremos ver en la consulta."
+        ],
+        "Respuesta_correcta": "Especificar los campos que queremos ver en la consulta."
+      },
+      {
+        "Pregunta": "¿En qué industrias y aplicaciones se han utilizado con éxito las bases de datos NoSQL según el texto?",
+        "Respuestas": [
+          "a. Redes sociales, Internet de las cosas (IoT).",
+          "b. Agricultura y construcción.",
+          "c. Industria de la moda y viajes."
+        ],
+        "Respuesta_correcta": "Redes sociales, Internet de las cosas (IoT)."
+      },
+      {
+        "Pregunta": "¿Cómo se les llama a las columnas que se utilizan para hacer una composición entre dos tablas, en una consulta multitabla?",
+        "Respuestas": [
+          "a. Columnas de intersección.",
+          "b. Columnas de emparejamiento.",
+          "c. Columnas de unión."
+        ],
+        "Respuesta_correcta": "Columnas de emparejamiento."
+      },
+      {
+        "Pregunta": "Si queremos utilizar un test de rango en una consulta SQL, lo haremos usando:",
+        "Respuestas": [
+          "a. BETWEEN ... AND",
+          "b. Los operadores <,>...",
+          "c. IN ... NOT IN"
+        ],
+        "Respuesta_correcta": "BETWEEN ... AND"
+      },
+      {
+        "Pregunta": "¿Cómo podemos crear una base de datos en MongoDB?",
+        "Respuestas": [
+          "a. Con Create DataBase.",
+          "b. No se pueden crear bases de datos desde la línea de comandos.",
+          "c. Con use nombre_basedatos."
+        ],
+        "Respuesta_correcta": "Con use nombre_basedatos."
+      },
+      {
+        "Pregunta": "Las variables pueden ser:",
+        "Respuestas": [
+          "a. Del sistema",
+          "b. De usuario",
+          "c. Ambas son correctas"
+        ],
+        "Respuesta_correcta": "Ambas son correctas"
+      },
+      {
+        "Pregunta": "¿De qué forma se puede declarar una variable en PL/SQL?",
+        "Respuestas": [
+          "a. nombre_variable : valor_inicial;",
+          "b. Ambas son correctas.",
+          "c. nombre_variable ;"
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "El código de creación de un procedimiento almacenado debemos terminarlo siempre con:",
+        "Respuestas": [
+          "a. END nombre_procedimiento;",
+          "b. EXEC nombre_procedimiento;",
+          "c. CALL nombre_procedimiento;"
+        ],
+        "Respuesta_correcta": "END nombre_procedimiento;"
+      },
+      {
+        "Pregunta": "La cláusula WHERE la usamos para:",
+        "Respuestas": [
+          "a. Indicar las filas de las que queremos recuperar los datos.",
+          "b. Indicar las columnas de las que queremos recuperar los datos.",
+          "c. Indicar la tabla de la que queremos recuperar los datos."
+        ],
+        "Respuesta_correcta": "Indicar las filas de las que queremos recuperar los datos."
+      },
+      {
+        "Pregunta": "¿Qué pasa si al hacer una composición EXTERNA completa de dos tablas A y B, indicando una columna de emparejamiento, las tablas tienen valores NULL en esa columna?",
+        "Respuestas": [
+          "a. Que aparecerán las filas NULL de la tabla A, pero no las de la tabla B.",
+          "b. Que aparecerían también las filas con valores NULL en el resultado.",
+          "c. Que las filas con valores NULL no aparecerían en el resultado."
+        ],
+        "Respuesta_correcta": "Que aparecerían también las filas con valores NULL en el resultado."
+      },
+      {
+        "Pregunta": "En la estructura de creación de un procedimiento almacenado, ¿qué datos son opcionales?",
+        "Respuestas": [
+          "a. Las sentencias de control de excepción.",
+          "b. Los parámetros y su tipo.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "Si al compilar un procedimiento almacenado con PL/SQL, ocurre algún error de compilación, pueden verse usando:",
+        "Respuestas": [
+          "a. EXHIBIT ERRORS",
+          "b. SHOW ERRORS",
+          "c. DISPLAY ERRORS"
+        ],
+        "Respuesta_correcta": "SHOW ERRORS"
+      },
+      {
+        "Pregunta": "En un SGBD, el lenguaje que se usa para consultar y manipular la información de la base de datos es:",
+        "Respuestas": [
+          "a. DDL",
+          "b. DML",
+          "c. DCL"
+        ],
+        "Respuesta_correcta": "DML"
+      },
+      {
+        "Pregunta": "Las agregaciones en MongoDB permiten:",
+        "Respuestas": [
+          "a. Combinar información de múltiples documentos o colecciones en una única salida.",
+          "b. Ambas son correctas.",
+          "c. Agrupar datos basados en ciertos campos."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Cuál es una de las características destacadas de Studio 3T para MongoDB?",
+        "Respuestas": [
+          "a. Exploración y visualización de datos en formato CSV.",
+          "b. Integración con servicios en la nube como AWS y Google Cloud.",
+          "c. Generación de código en lenguajes de programación como JavaScript, Python y Java."
+        ],
+        "Respuesta_correcta": "Generación de código en lenguajes de programación como JavaScript, Python y Java."
+      },
+      {
+        "Pregunta": "Para poder usar los nombres de columnas cualificados en consultas SQL multitabla:",
+        "Respuestas": [
+          "a. Necesitamos asignar alias a las tablas.",
+          "b. No siempre es necesario asignar alias a las tablas.",
+          "c. Nunca hay que usar asignar alias a las tablas en este caso."
+        ],
+        "Respuesta_correcta": "No siempre es necesario asignar alias a las tablas."
+      },
+      {
+        "Pregunta": "Cuando hacemos consultas con dos o más tablas, y en estas tablas hay columnas que se llaman igual:",
+        "Respuestas": [
+          "a. Tenemos que indicarle a SQL con nombres cualificados a qué tabla pertenece cada columna.",
+          "b. SQL sabe distinguir qué columna es de cada tabla en la consulta.",
+          "c. No existen problemas de ambigüedad."
+        ],
+        "Respuesta_correcta": "Tenemos que indicarle a SQL con nombres cualificados a qué tabla pertenece cada columna."
+      },
+      {
+        "Pregunta": "El objetivo de crear procedimientos almacenados es para:",
+        "Respuestas": [
+          "a. Tener una lista de consultas realizadas con recurrencia.",
+          "b. Poder automatizar acciones en la base de datos.",
+          "c. Que no se nos pierdan las consultas que hemos creado."
+        ],
+        "Respuesta_correcta": "Poder automatizar acciones en la base de datos."
+      },
+      {
+        "Pregunta": "¿Qué herramienta de Oracle nos permite la automatización de tareas y la creación de jobs?",
+        "Respuestas": [
+          "a. DBMS_TASK",
+          "b. DBMS_JOBS",
+          "c. DBMS_SCHEDULER"
+        ],
+        "Respuesta_correcta": "DBMS_SCHEDULER"
+      },
+      {
+        "Pregunta": "Señala la opción correcta:",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Atlas es un servicio en la nube que permite trabajar con Riak.",
+          "c. Cypher es un lenguaje de consulta específico para grafos."
+        ],
+        "Respuesta_correcta": "Cypher es un lenguaje de consulta específico para grafos."
+      },
+      {
+        "Pregunta": "En una consulta SQL, ¿qué es una composición?",
+        "Respuestas": [
+          "a. El proceso de formar filas uniendo el resultado de dos consultas SQL.",
+          "b. El proceso de componer un resultado con una sentencia SELECT.",
+          "c. El proceso de formar filas haciendo coincidir los contenidos de las columnas relacionadas de varias tablas."
+        ],
+        "Respuesta_correcta": "El proceso de formar filas haciendo coincidir los contenidos de las columnas relacionadas de varias tablas."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta:",
+        "Respuestas": [
+          "a. El operador NEW hace referencia a los valores nuevos de la fila después de la operación que activó el trigger.",
+          "b. Ambas son correctas.",
+          "c. El operador OLD hace referencia a los valores antiguos de la fila antes de la operación que activó el trigger."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Qué filtro estoy aplicando si tengo lo siguiente: \"Ciudad\": /^m/i?",
+        "Respuestas": [
+          "a. Las ciudades que contengan una 'm' y una 'i'.",
+          "b. Las ciudades que empiecen por m sin tener en cuenta mayúsculas o minúsculas.",
+          "c. Las ciudades que empiecen por m minúscula."
+        ],
+        "Respuesta_correcta": "Las ciudades que empiecen por m sin tener en cuenta mayúsculas o minúsculas."
+      },
+      {
+        "Pregunta": "Una de las principales características de Redis es:",
+        "Respuestas": [
+          "a. Que almacena la información en columnas en lugar de en filas.",
+          "b. Que trabaja con datos semiestructurados como documentos XML o JSON.",
+          "c. Que trabaja en memoria."
+        ],
+        "Respuesta_correcta": "Que trabaja en memoria."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta sobre la composición completa:",
+        "Respuestas": [
+          "a. En MySQL debemos simularla mediante la UNION de una consulta con LEFT JOIN y otra con RIGHT JOIN.",
+          "b. En MySQL podemos hacerla con FULL OUTER JOIN.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "En MySQL debemos simularla mediante la UNION de una consulta con LEFT JOIN y otra con RIGHT JOIN."
+      },
+      {
+        "Pregunta": "¿Cuál de estas cláusulas es obligatoria en una sentencia SELECT?",
+        "Respuestas": [
+          "a. INTO",
+          "b. FROM",
+          "c. WHERE"
+        ],
+        "Respuesta_correcta": "FROM"
+      },
+      {
+        "Pregunta": "Si dos o más transacciones se ejecutan al mismo tiempo, estamos hablando de:",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Concurrencia.",
+          "c. Simultaneidad."
+        ],
+        "Respuesta_correcta": "Concurrencia."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, la unidad léxica \"\"literal\"\" se refiere a:",
+        "Respuestas": [
+          "a. Es un valor de tipo numérico, carácter, cadena o lógico no representado por un identificador.",
+          "b. Unidades y objetos empleados para nombrar objetos de programas, así como unidades dentro del mismo.",
+          "c. Un símbolo simple o compuesto que tiene una función especial en los procedimientos almacenados."
+        ],
+        "Respuesta_correcta": "Es un valor de tipo numérico, carácter, cadena o lógico no representado por un identificador."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes es una base de datos documental?",
+        "Respuestas": [
+          "a. Apache Cassandra.",
+          "b. MongoDB.",
+          "c. Redis."
+        ],
+        "Respuesta_correcta": "MongoDB."
+      },
+      {
+        "Pregunta": "Cuando estamos programando un procedimiento almacenado, ¿Qué operador usamos para concatenar textos?",
+        "Respuestas": [
+          "a. El operador +",
+          "b. El operador .",
+          "c. El operador ||"
+        ],
+        "Respuesta_correcta": "El operador ||"
+      },
+      {
+        "Pregunta": "¿Cuál es la principal diferencia entre un procedimiento y una función?",
+        "Respuestas": [
+          "a. No existe ninguna diferencia.",
+          "b. Que en una función hay que devolver un valor, usando para ello RETURN.",
+          "c. Que en un procedimiento hay que devolver un valor, usando para ello RETURN."
+        ],
+        "Respuesta_correcta": "Que en una función hay que devolver un valor, usando para ello RETURN."
+      },
+      {
+        "Pregunta": "¿Por qué Redis es ampliamente utilizado en aplicaciones web?",
+        "Respuestas": [
+          "a. Debido a su capacidad para mejorar el rendimiento y reducir la carga en las bases de datos tradicionales al actuar como caché en memoria.",
+          "b. Por su facilidad para realizar transacciones complejas.",
+          "c. Porque es una base de datos relacional muy potente."
+        ],
+        "Respuesta_correcta": "Debido a su capacidad para mejorar el rendimiento y reducir la carga en las bases de datos tradicionales al actuar como caché en memoria."
+      },
+      {
+        "Pregunta": "Observando la siguiente sentencia, ¿cuántas columnas tiene la tabla OFICINAS? SELECT CIUDAD, REGION, VENTAS FROM OFICINAS:",
+        "Respuestas": [
+          "a. No podemos saberlo.",
+          "b. La tabla oficinas tiene 3 columnas.",
+          "c. La tabla oficinas tiene 4 columnas."
+        ],
+        "Respuesta_correcta": "No podemos saberlo."
+      },
+      {
+        "Pregunta": "Para pasar argumentos a un procedimiento almacenado, podemos usar la notación posicional, que consiste en:",
+        "Respuestas": [
+          "a. Pasar los valores de los parámetros, ordenados por orden alfabético.",
+          "b. Pasar los valores de los parámetros en el mismo orden en el que se definen en el CREATE PROCEDURE.",
+          "c. Pasar los valores de los parámetros, sin importar la posición de los mismos."
+        ],
+        "Respuesta_correcta": "Pasar los valores de los parámetros en el mismo orden en el que se definen en el CREATE PROCEDURE."
+      },
+      {
+        "Pregunta": "En una consulta SQL, el test de comparación =, cuando la columna es una clave primaria y existe coincidencia:",
+        "Respuestas": [
+          "a. Devuelve todas las filas que coincidan con la comparación.",
+          "b. Este test no se puede realizar con una clave primaria.",
+          "c. Devuelve una única fila de resultados."
+        ],
+        "Respuesta_correcta": "Devuelve una única fila de resultados."
+      },
+      {
+        "Pregunta": "En el procesamiento de una consulta multitabla, lo primero que se realiza es:",
+        "Respuestas": [
+          "a. La UNION de sentencias SELECT, si la hubiera.",
+          "b. La cláusula WHERE, si la hubiera.",
+          "c. La cláusula ORDER BY, si la hubiera."
+        ],
+        "Respuesta_correcta": "La cláusula WHERE, si la hubiera."
+      },
+      {
+        "Pregunta": "¿Qué ofrece MongoDB Atlas para garantizar la alta disponibilidad de los datos?",
+        "Respuestas": [
+          "a. Exploración y visualización de datos.",
+          "b. Importación y exportación de datos.",
+          "c. Replicación automática de datos."
+        ],
+        "Respuesta_correcta": "Replicación automática de datos."
+      },
+      {
+        "Pregunta": "¿Qué bases de datos trabaja con documentos BSON?",
+        "Respuestas": [
+          "a. CouchDB.",
+          "b. Redis.",
+          "c. MongoDB."
+        ],
+        "Respuesta_correcta": "MongoDB."
+      },
+      {
+        "Pregunta": "La función interna AVG de SQL calcula:",
+        "Respuestas": [
+          "a. La suma de un conjunto de valores.",
+          "b. Cuenta el número de valores que hay en un conjunto.",
+          "c. La media de un conjunto de valores."
+        ],
+        "Respuesta_correcta": "La media de un conjunto de valores."
+      },
+      {
+        "Pregunta": "¿A qué hacen referencia las cláusulas BEFORE, AFTER e INSTEAD OF en un trigger?",
+        "Respuestas": [
+          "a. Ninguna es correcta",
+          "b. Al momento en el que debe ejecutarse el disparador",
+          "c. Al momento en el que se crea el disparador"
+        ],
+        "Respuesta_correcta": "Al momento en el que debe ejecutarse el disparador"
+      },
+      {
+        "Pregunta": "¿Con qué otro nombre se conoce a las bases de datos no relacionales?",
+        "Respuestas": [
+          "a. NoSQL.",
+          "b. NoRel.",
+          "c. NoDB."
+        ],
+        "Respuesta_correcta": "NoSQL."
+      },
+      {
+        "Pregunta": "¿Qué significa \"escalabilidad lineal\" en el contexto de las bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Agregar más recursos proporciona un aumento proporcional en el rendimiento.",
+          "b. La escalabilidad no es una característica de las bases de datos NoSQL.",
+          "c. Aumentar los recursos no tiene ningún impacto en el rendimiento."
+        ],
+        "Respuesta_correcta": "Agregar más recursos proporciona un aumento proporcional en el rendimiento."
+      },
+      {
+        "Pregunta": "¿Qué ventaja ofrece la tolerancia a fallos en las bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Aumenta la velocidad de escritura en la base de datos",
+          "b. Permite agregar nuevos campos a los registros sin problemas",
+          "c. Garantiza la disponibilidad continua de los datos, incluso si falla un nodo"
+        ],
+        "Respuesta_correcta": "Garantiza la disponibilidad continua de los datos, incluso si falla un nodo"
+      },
+      {
+        "Pregunta": "Los cursores pueden ser:",
+        "Respuestas": [
+          "a. Explícitos.",
+          "b. Implícitos.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguentes bases de datos es una base de datos basada en grafos?",
+        "Respuestas": [
+          "a. CouchDB",
+          "b. Neo4j",
+          "c. Apache Cassandra"
+        ],
+        "Respuesta_correcta": "Neo4j"
+      },
+      {
+        "Pregunta": "¿Qué filtro estoy aplicando si tengo lo siguiente: \"Ciudad\": /^m/i?",
+        "Respuestas": [
+          "a. Las ciudades que empiecen por m minúscula.",
+          "b. Las ciudades que contengan una 'm' y una 'i'.",
+          "c. Las ciudades que empiecen por m sin tener en cuenta mayúsculas o minúsculas."
+        ],
+        "Respuesta_correcta": "Las ciudades que empiecen por m sin tener en cuenta mayúsculas o minúsculas."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, la unidad léxica \"\"delimitador\"\" se refiere a:",
+        "Respuestas": [
+          "a. Es un valor de tipo numérico, carácter, cadena o lógico no representado por un identificador.",
+          "b. Unidades y objetos empleados para nombrar objetos de programas, así como unidades dentro del mismo.",
+          "c. Un símbolo simple o compuesto que tiene una función especial en los procedimientos almacenados."
+        ],
+        "Respuesta_correcta": "Un símbolo simple o compuesto que tiene una función especial en los procedimientos almacenados."
+      },
+      {
+        "Pregunta": "En PL/SQL, ¿qué tipo de bucle se repite tantas veces como sea necesario mientras se cumple una expresión?",
+        "Respuestas": [
+          "a. WHILE",
+          "b. LOOP",
+          "c. FOR"
+        ],
+        "Respuesta_correcta": "WHILE"
+      },
+      {
+        "Pregunta": "¿Qué base datos ofrece una capa de abstracción llamada CQL?",
+        "Respuestas": [
+          "a. Riak.",
+          "b. Apache Cassandra.",
+          "c. Neo4j."
+        ],
+        "Respuesta_correcta": "Apache Cassandra."
+      },
+      {
+        "Pregunta": "En SQL, una subconsulta puede aparecer en:",
+        "Respuestas": [
+          "a. La cláusula ORDER BY.",
+          "b. La cláusula FROM.",
+          "c. La cláusula WHERE."
+        ],
+        "Respuesta_correcta": "La cláusula WHERE."
+      },
+      {
+        "Pregunta": "¿Qué sentencia debemos usar si queremos obtener la fila actual de un cursor y avanzar a la siguiente?",
+        "Respuestas": [
+          "a. FETCH",
+          "b. EXIT",
+          "c. OPEN"
+        ],
+        "Respuesta_correcta": "FETCH"
+      },
+      {
+        "Pregunta": "El código de creación de un procedimiento almacenado debemos terminarlo siempre con:",
+        "Respuestas": [
+          "a. END nombre_procedimiento;",
+          "b. EXEC nombre_procedimiento;",
+          "c. CALL nombre_procedimiento;"
+        ],
+        "Respuesta_correcta": "END nombre_procedimiento;"
+      },
+      {
+        "Pregunta": "Para crear un procedimiento almacenado, debemos hacerlo empezando con las palabras:",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. CREATE OR REPLACE PROCEDURE",
+          "c. CREATE PROCEDURE"
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En el lenguaje PL/SQL, ¿cómo se puede llamar a una función?",
+        "Respuestas": [
+          "a. Creando un bloque PL/SQL.",
+          "b. Ambas son correctas.",
+          "c. Mediante una consulta usando FROM DUAL."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Por qué Redis es ampliamente utilizado en aplicaciones web?",
+        "Respuestas": [
+          "a. Porque es una base de datos relacional muy potente.",
+          "b. Debido a su capacidad para mejorar el rendimiento y reducir la carga en las bases de datos tradicionales al actuar como caché en memoria.",
+          "c. Por su facilidad para realizar transacciones complejas."
+        ],
+        "Respuesta_correcta": "Debido a su capacidad para mejorar el rendimiento y reducir la carga en las bases de datos tradicionales al actuar como caché en memoria."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado del lenguaje PL/SQL, la declaración de variables locales se indica después de la palabra:",
+        "Respuestas": [
+          "a. AS",
+          "b. Ambas son correctas",
+          "c. IS"
+        ],
+        "Respuesta_correcta": "Ambas son correctas"
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta sobre la composición completa:",
+        "Respuestas": [
+          "a. En MySQL debemos simularla mediante la UNION de una consulta con LEFT JOIN y otra con RIGHT JOIN.",
+          "b. En MySQL podemos hacerla con FULL OUTER JOIN.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "En MySQL debemos simularla mediante la UNION de una consulta con LEFT JOIN y otra con RIGHT JOIN."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes es una técnica de control de transacciones?",
+        "Respuestas": [
+          "a. Bloqueo de lectura y ejecución.",
+          "b. Bloque de escritura y ejecución.",
+          "c. Bloqueo de lectura y escritura."
+        ],
+        "Respuesta_correcta": "Bloqueo de lectura y escritura."
+      },
+      {
+        "Pregunta": "Si dos o más transacciones se ejecutan al mismo tiempo, estamos hablando de:",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Simultaneidad.",
+          "c. Concurrencia."
+        ],
+        "Respuesta_correcta": "Concurrencia."
+      },
+      {
+        "Pregunta": "En las condiciones de búsqueda de una consulta SELECT de SQL, el test de rango es equivalente a usar:",
+        "Respuestas": [
+          "a. Un test de pertenencia a conjunto.",
+          "b. Un test de comparación.",
+          "c. Dos test de comparación."
+        ],
+        "Respuesta_correcta": "Dos test de comparación."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de bucle FOR del lenguaje PL/SQL es la correcta?",
+        "Respuestas": [
+          "a. FOR inicio..final LOOP -- Instrucciones END LOOP;",
+          "b. FOR contador IN [REVERSE] inicio..final LOOP -- Instrucciones END LOOP;",
+          "c. FOR contador IN [REVERSE] inicio..final LOOP WHILE -- Instrucciones END LOOP;"
+        ],
+        "Respuesta_correcta": "FOR contador IN [REVERSE] inicio..final LOOP -- Instrucciones END LOOP;"
+      },
+      {
+        "Pregunta": "La forma de eliminar un procedimiento almacenado en el lenguaje PL/SQL es:",
+        "Respuestas": [
+          "a. REMOVE PROCECURE",
+          "b. DELETE PROCEDURE",
+          "c. DROP PROCEDURE"
+        ],
+        "Respuesta_correcta": "DROP PROCEDURE"
+      },
+      {
+        "Pregunta": "¿Cuál de estas cláusulas es obligatoria en una sentencia SELECT?",
+        "Respuestas": [
+          "a. WHERE",
+          "b. FROM",
+          "c. INTO"
+        ],
+        "Respuesta_correcta": "FROM"
+      },
+      {
+        "Pregunta": "¿De cuántas maneras podemos usar AND en MongoDB?",
+        "Respuestas": [
+          "a. De manera explícita con $and.",
+          "b. Ambas son correctas.",
+          "c. De manera implícita usando una coma."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En una consulta SQL multitabla, la selección de todas las columnas (SELECT *) mostrará:",
+        "Respuestas": [
+          "a. Todas las columnas de todas las tablas que participan en la consulta.",
+          "b. Todas las columnas de la última tabla que aparece en la consulta.",
+          "c. Todas las columnas de la primera tabla que aparece en la consulta."
+        ],
+        "Respuesta_correcta": "Todas las columnas de todas las tablas que participan en la consulta."
+      },
+      {
+        "Pregunta": "El operador $unwind sirve para:",
+        "Respuestas": [
+          "a. Ninguna es correcta",
+          "b. Descomponer los documentos de una colección en múltiples documentos, uno por cada elemento en el array",
+          "c. Seleccionar los documentos que cumplen ciertos criterios"
+        ],
+        "Respuesta_correcta": "Descomponer los documentos de una colección en múltiples documentos, uno por cada elemento en el array"
+      },
+      {
+        "Pregunta": "En el lenguaje PL/SQL, los comentarios pueden indicarse:",
+        "Respuestas": [
+          "a. Con /* */ si son comentarios de varias líneas.",
+          "b. Ambas son correctas.",
+          "c. Con -- Si son comentarios de una sola línea."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "Observando la siguiente sentencia, ¿cuántas columnas tiene la tabla OFICINAS? SELECT CIUDAD, REGION, VENTAS FROM OFICINAS:",
+        "Respuestas": [
+          "a. No podemos saberlo.",
+          "b. La tabla oficinas tiene 3 columnas.",
+          "c. La tabla oficinas tiene 4 columnas."
+        ],
+        "Respuesta_correcta": "No podemos saberlo."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, ¿qué unidad léxica consiste en una aclaración que el programador incluye en el código?:",
+        "Respuestas": [
+          "a. Identificador.",
+          "b. Literal.",
+          "c. Comentario."
+        ],
+        "Respuesta_correcta": "Comentario."
+      },
+      {
+        "Pregunta": "¿Cuál es la diferencia entre SQL y PL/SQL?",
+        "Respuestas": [
+          "a. PL-SQL es un lenguaje de consulta, y SQL es un lenguaje de programación.",
+          "b. No hay diferencias, ambos se pueden usar para lo mismo.",
+          "c. SQL es un lenguaje de consulta, y PL/SQL es un lenguaje de programación."
+        ],
+        "Respuesta_correcta": "SQL es un lenguaje de consulta, y PL/SQL es un lenguaje de programación."
+      },
+      {
+        "Pregunta": "En MongoDB, la sección project se usa para:",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Especificar los campos que queremos ver en la consulta.",
+          "c. Para especiifcar los filtros a aplicar en la consulta."
+        ],
+        "Respuesta_correcta": "Especificar los campos que queremos ver en la consulta."
+      },
+      {
+        "Pregunta": "El producto cartesiano de dos tablas es una operación en la que se obtiene:",
+        "Respuestas": [
+          "a. Las relaciones entre la mitad de las tuplas de cada una de las tablas.",
+          "b. Todas las relaciones entre las tuplas de las dos tablas.",
+          "c. Todas las relaciones con significado entre las dos tuplas."
+        ],
+        "Respuesta_correcta": "Todas las relaciones entre las tuplas de las dos tablas."
+      },
+      {
+        "Pregunta": "¿Cómo se elimina una colección en MongoDB?",
+        "Respuestas": [
+          "a. db.Colección.delete().",
+          "b. db.Colección.erase().",
+          "c. db.Colección.drop()."
+        ],
+        "Respuesta_correcta": "db.Colección.drop()."
+      },
+      {
+        "Pregunta": "Cuando hablamos de una secuencia de operaciones que se ejecutan como una unidad indivisible, nos referimos a:",
+        "Respuestas": [
+          "a. Una transacción.",
+          "b. Un COMMIT.",
+          "c. Una consulta SQL."
+        ],
+        "Respuesta_correcta": "Una transacción."
+      },
+      {
+        "Pregunta": "Las agregaciones en MongoDB permiten:",
+        "Respuestas": [
+          "a. Agrupar datos basados en ciertos campos.",
+          "b. Combinar información de múltiples documentos o colecciones en una única salida.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Qué pasa si al hacer una composición INTERNA de dos tablas A y B, indicando una columna de emparejamiento, las tablas tienen valores NULL en esa columna?",
+        "Respuestas": [
+          "a. Que aparecerán las filas NULL de la tabla A, pero no las de la tabla B.",
+          "b. Que aparecerían también las filas de A y B con valores NULL en el resultado.",
+          "c. Que las filas con valores NULL no aparecerían en el resultado."
+        ],
+        "Respuesta_correcta": "Que las filas con valores NULL no aparecerían en el resultado."
+      },
+      {
+        "Pregunta": "¿Por qué las bases de datos NoSQL se consideran una alternativa a las bases de datos relacionales?",
+        "Respuestas": [
+          "a. Pueden manejar grandes volúmenes de datos.",
+          "b. Ofrecen soporte exclusivo para SQL.",
+          "c. Se basan en el modelo de tablas relacionales."
+        ],
+        "Respuesta_correcta": "Pueden manejar grandes volúmenes de datos."
+      },
+      {
+        "Pregunta": "¿En qué industrias y aplicaciones se han utilizado con éxito las bases de datos NoSQL según el texto?",
+        "Respuestas": [
+          "a. Industria de la moda y viajes.",
+          "b. Redes sociales, Internet de las cosas (IoT).",
+          "c. Agricultura y construcción."
+        ],
+        "Respuesta_correcta": "Redes sociales, Internet de las cosas (IoT)."
+      },
+      {
+        "Pregunta": "En el procesamiento de una consulta multitabla, de estas opciones, lo último que se realiza es:",
+        "Respuestas": [
+          "a. La cláusula WHERE, si la hubiera.",
+          "b. Eliminar las filas duplicadas si se especifica SELECT DISTINCT.",
+          "c. El producto de las tablas indicadas en la cláusula FROM."
+        ],
+        "Respuesta_correcta": "Eliminar las filas duplicadas si se especifica SELECT DISTINCT."
+      },
+      {
+        "Pregunta": "¿Qué pasa si la condición de la función updateOne() coincide con más de un documento?",
+        "Respuestas": [
+          "a. Se modificarán todos los documentos que cumplan el filtro.",
+          "b. Solo se modificará el primero que encuentre.",
+          "c. Ninguna es correcta."
+        ],
+        "Respuesta_correcta": "Solo se modificará el primero que encuentre."
+      },
+      {
+        "Pregunta": "El lenguaje PL/SQL pertenece a:",
+        "Respuestas": [
+          "a. Oracle",
+          "b. Microsoft",
+          "c. MySQL"
+        ],
+        "Respuesta_correcta": "Oracle"
+      },
+      {
+        "Pregunta": "En un test de correspondencia con patrón LIKE, el carácter comodín % se utiliza para:",
+        "Respuestas": [
+          "a. Indicar que en su lugar puede ir cualquier columna.",
+          "b. Indicar que en su lugar puede ir cualquier cadena de caracteres.",
+          "c. Indicar que en su lugar puede ir cualquier carácter."
+        ],
+        "Respuesta_correcta": "Indicar que en su lugar puede ir cualquier cadena de caracteres."
+      },
+      {
+        "Pregunta": "En PL/SQL, ¿qué tipo de bucle se repite tantas veces como se le indique con los identificadores de inicio y final?",
+        "Respuestas": [
+          "a. FOR",
+          "b. LOOP",
+          "c. WHILE"
+        ],
+        "Respuesta_correcta": "FOR"
+      },
+      {
+        "Pregunta": "¿Qué tipo de base de datos NoSQL se estructura en nodos y aristas?",
+        "Respuestas": [
+          "a. Basada en grafos.",
+          "b. Clave-valor.",
+          "c. Documental."
+        ],
+        "Respuesta_correcta": "Basada en grafos."
+      },
+      {
+        "Pregunta": "¿Qué ventaja ofrece la tolerancia a fallos en las bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Permite agregar nuevos campos a los registros sin problemas",
+          "b. Aumenta la velocidad de escritura en la base de datos",
+          "c. Garantiza la disponibilidad continua de los datos, incluso si falla un nodo"
+        ],
+        "Respuesta_correcta": "Garantiza la disponibilidad continua de los datos, incluso si falla un nodo"
+      },
+      {
+        "Pregunta": "Cuando estamos programando un procedimiento almacenado, ¿Qué operador usamos para concatenar textos?",
+        "Respuestas": [
+          "a. El operador ||",
+          "b. El operador .",
+          "c. El operador +"
+        ],
+        "Respuesta_correcta": "El operador ||"
+      },
+      {
+        "Pregunta": "¿Cuáles son los principales tipos de composiciones en MySQL?",
+        "Respuestas": [
+          "a. Externa por la izquierda y externa por la derecha.",
+          "b. Interna.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Por qué surgen este tipo de bases de datos no relacionales?",
+        "Respuestas": [
+          "a. Porque proporcionan mayor flexibilidad.",
+          "b. Debido a las limitaciones del modelo relacional.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, las constantes, cursores, variables, subprogramas y excepciones entran en el grupo de unidad léxica:",
+        "Respuestas": [
+          "a. Delimitador.",
+          "b. Literal.",
+          "c. Identificador."
+        ],
+        "Respuesta_correcta": "Identificador."
+      },
+      {
+        "Pregunta": "Para pasar argumentos a un procedimiento almacenado, podemos usar la notación nominal, que consiste en:",
+        "Respuestas": [
+          "a. Pasar los valores nombrando el parámetro, y en el orden especificado en la creación del procedimiento.",
+          "b. Pasar los valores en cualquier orden, nombrando explícitamente el parámetro.",
+          "c. Pasar los valores nombrando explícitamente el parámetro, y en orden alfabético."
+        ],
+        "Respuesta_correcta": "Pasar los valores en cualquier orden, nombrando explícitamente el parámetro."
+      },
+      {
+        "Pregunta": "En la estructura de creación de un procedimiento almacenado, ¿qué datos son opcionales?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Los parámetros y su tipo.",
+          "c. Las sentencias de control de excepción."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "De las tres secciones de la estructura de un bloque en un procedimiento almacenado, el único obligatorio es:",
+        "Respuestas": [
+          "a. La sección declarativa.",
+          "b. La sección de excepciones.",
+          "c. La sección de ejecución."
+        ],
+        "Respuesta_correcta": "La sección de ejecución."
+      },
+      {
+        "Pregunta": "En una consulta multitabla las tablas que se utilizan aparecen en:",
+        "Respuestas": [
+          "a. En el WHERE.",
+          "b. En el SELECT.",
+          "c. En el FROM."
+        ],
+        "Respuesta_correcta": "En el FROM."
+      },
+      {
+        "Pregunta": "¿Cuándo devuelve FALSE el test de comparación con subconsultas ANY?",
+        "Respuestas": [
+          "a. Cuando ninguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE.",
+          "b. Cuando alguna de las comparaciones con los resultados de la columna de la subconsulta es FALSE.",
+          "c. Cuando alguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE."
+        ],
+        "Respuesta_correcta": "Cuando ninguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE."
+      },
+      {
+        "Pregunta": "¿Cuál es la diferencia entre SQL y PL/SQL?",
+        "Respuestas": [
+          "a. PL-SQL es un lenguaje de consulta, y SQL es un lenguaje de programación.",
+          "b. No hay diferencias, ambos se pueden usar para lo mismo.",
+          "c. SQL es un lenguaje de consulta, y PL/SQL es un lenguaje de programación."
+        ],
+        "Respuesta_correcta": "SQL es un lenguaje de consulta, y PL/SQL es un lenguaje de programación."
+      },
+      {
+        "Pregunta": "¿Qué significa \"escalar horizontalmente\" en el contexto de las bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Agregar más columnas a las tablas",
+          "b. Incrementar la velocidad de lectura de la base de datos",
+          "c. Distribuir la carga de trabajo entre múltiples nodos o servidores"
+        ],
+        "Respuesta_correcta": "Distribuir la carga de trabajo entre múltiples nodos o servidores"
+      },
+      {
+        "Pregunta": "MongoDB y CouchDB son ejemplos de:",
+        "Respuestas": [
+          "a. Bases de datos clave-valor.",
+          "b. Bases de datos documentales.",
+          "c. Bases de datos basadas en grafos."
+        ],
+        "Respuesta_correcta": "Bases de datos documentales."
+      },
+      {
+        "Pregunta": "Cuando ya tenemos creado un procedimiento almacenado en nuestra base de datos, ¿cómo podemos modificarlo?",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Simplemente con un comando REPLACE PROCEDURE, indicando el nombre y los cambios.",
+          "c. Escribiendo de nuevo todo el script pero usando el comando la opción REPLACE así: CREATE OR REPLACE PROCEDURE ..."
+        ],
+        "Respuesta_correcta": "Escribiendo de nuevo todo el script pero usando el comando la opción REPLACE así: CREATE OR REPLACE PROCEDURE ..."
+      },
+      {
+        "Pregunta": "¿Qué ofrece MongoDB Atlas para garantizar la alta disponibilidad de los datos?",
+        "Respuestas": [
+          "a. Replicación automática de datos.",
+          "b. Exploración y visualización de datos.",
+          "c. Importación y exportación de datos."
+        ],
+        "Respuesta_correcta": "Replicación automática de datos."
+      },
+      {
+        "Pregunta": "¿Es posible hacer JOINS o algo similar en MongoDB?",
+        "Respuestas": [
+          "a. No es posible hacer nada parecido.",
+          "b. Sí, MongoDB permite hacer todo tipo de Joins.",
+          "c. Se puede usar el operador $lookup para simular un INNER JOIN."
+        ],
+        "Respuesta_correcta": "Se puede usar el operador $lookup para simular un INNER JOIN."
+      },
+      {
+        "Pregunta": "En una sentencia SQL, la operación UNION ALL:",
+        "Respuestas": [
+          "a. Muestra el resultado de la unión de dos consultas, con todas las columnas de cada tabla.",
+          "b. Muestra los resultados de la unión de dos consultas sin duplicados.",
+          "c. Muestra los resultados de la unión de dos consultas con duplicados."
+        ],
+        "Respuesta_correcta": "Muestra los resultados de la unión de dos consultas con duplicados."
+      },
+      {
+        "Pregunta": "En una consulta padre/hijo:",
+        "Respuestas": [
+          "a. La tabla que se coloca a la derecha es el hijo en la relación y la tabla que se coloca a la izquierda es el padre.",
+          "b. La tabla que contiene la clave ajena es el padre en la relación y la tabla con la clave primaria es el hijo.",
+          "c. La tabla que contiene la clave ajena es el hijo en la relación y la tabla con la clave primaria es el padre."
+        ],
+        "Respuesta_correcta": "La tabla que contiene la clave ajena es el hijo en la relación y la tabla con la clave primaria es el padre."
+      },
+      {
+        "Pregunta": "En Oracle, ¿cómo dispara un usuario sus propias excepciones?",
+        "Respuestas": [
+          "a. LAUNCH nombre_excepcion",
+          "b. RAISE nombre_excepcion",
+          "c. RETURN nombre_excepcion"
+        ],
+        "Respuesta_correcta": "RAISE nombre_excepcion"
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, la unidad léxica \"\"literal\"\" se refiere a:",
+        "Respuestas": [
+          "a. Es un valor de tipo numérico, carácter, cadena o lógico no representado por un identificador.",
+          "b. Un símbolo simple o compuesto que tiene una función especial en los procedimientos almacenados.",
+          "c. Unidades y objetos empleados para nombrar objetos de programas, así como unidades dentro del mismo."
+        ],
+        "Respuesta_correcta": "Es un valor de tipo numérico, carácter, cadena o lógico no representado por un identificador."
+      },
+      {
+        "Pregunta": "¿Cuál es una de las principales características de MongoDB que lo ha hecho popular en una amplia variedad de aplicaciones?",
+        "Respuestas": [
+          "a. Su enfoque en consultas de alto rendimiento.",
+          "b. Su modelo de datos basado en documentos y su escalabilidad.",
+          "c. Su capacidad para almacenar datos en formato CSV."
+        ],
+        "Respuesta_correcta": "Su modelo de datos basado en documentos y su escalabilidad."
+      },
+      {
+        "Pregunta": "En una consulta multitabla puede haber:",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Condiciones de emparejamiento entre las tablas.",
+          "c. Condiciones de búsqueda de resultados en las tablas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "Para poder usar los nombres de columnas cualificados en consultas SQL multitabla:",
+        "Respuestas": [
+          "a. Nunca hay que usar asignar alias a las tablas en este caso.",
+          "b. Necesitamos asignar alias a las tablas.",
+          "c. No siempre es necesario asignar alias a las tablas."
+        ],
+        "Respuesta_correcta": "No siempre es necesario asignar alias a las tablas."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta respecto a las bases de datos NoSQL:",
+        "Respuestas": [
+          "a. Son extremadamente costosas.",
+          "b. No pueden manejar grandes volúmenes de datos.",
+          "c. La elección de una base de datos adecuada depende de las necesidades específicas de cada proyecto."
+        ],
+        "Respuesta_correcta": "La elección de una base de datos adecuada depende de las necesidades específicas de cada proyecto."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de bucle FOR del lenguaje PL/SQL es la correcta?",
+        "Respuestas": [
+          "a. FOR inicio..final LOOP -- Instrucciones END LOOP;",
+          "b. FOR contador IN [REVERSE] inicio..final LOOP WHILE -- Instrucciones END LOOP;",
+          "c. FOR contador IN [REVERSE] inicio..final LOOP -- Instrucciones END LOOP;"
+        ],
+        "Respuesta_correcta": "FOR contador IN [REVERSE] inicio..final LOOP -- Instrucciones END LOOP;"
+      },
+      {
+        "Pregunta": "¿Qué significa \"escalabilidad lineal\" en el contexto de las bases de datos NoSQL?",
+        "Respuestas": [
+          "a. La escalabilidad no es una característica de las bases de datos NoSQL.",
+          "b. Agregar más recursos proporciona un aumento proporcional en el rendimiento.",
+          "c. Aumentar los recursos no tiene ningún impacto en el rendimiento."
+        ],
+        "Respuesta_correcta": "Agregar más recursos proporciona un aumento proporcional en el rendimiento."
+      },
+      {
+        "Pregunta": "En el procesamiento de una consulta multitabla, lo primero que se realiza es:",
+        "Respuestas": [
+          "a. La cláusula WHERE, si la hubiera.",
+          "b. La UNION de sentencias SELECT, si la hubiera.",
+          "c. La cláusula ORDER BY, si la hubiera."
+        ],
+        "Respuesta_correcta": "La cláusula WHERE, si la hubiera."
+      },
+      {
+        "Pregunta": "¿Qué significa el término NoSQL en el contexto de las bases de datos?",
+        "Respuestas": [
+          "a. No está relacionado con SQL.",
+          "b. Not Only SQL.",
+          "c. No-SQL."
+        ],
+        "Respuesta_correcta": "Not Only SQL."
+      },
+      {
+        "Pregunta": "¿Qué pasa si al hacer una composición EXTERNA completa de dos tablas A y B, indicando una columna de emparejamiento, las tablas tienen valores NULL en esa columna?",
+        "Respuestas": [
+          "a. Que aparecerán las filas NULL de la tabla A, pero no las de la tabla B.",
+          "b. Que aparecerían también las filas con valores NULL en el resultado.",
+          "c. Que las filas con valores NULL no aparecerían en el resultado."
+        ],
+        "Respuesta_correcta": "Que aparecerían también las filas con valores NULL en el resultado."
+      },
+      {
+        "Pregunta": "En PL/SQL, ¿qué tipo de bucle se repite tantas veces como sea necesario hasta que se fuerza su salida con la instrucción EXIT?",
+        "Respuestas": [
+          "a. WHILE",
+          "b. FOR",
+          "c. LOOP"
+        ],
+        "Respuesta_correcta": "LOOP"
+      },
+      {
+        "Pregunta": "Si al compilar un procedimiento almacenado con PL/SQL, ocurre algún error de compilación, pueden verse usando:",
+        "Respuestas": [
+          "a. DISPLAY ERRORS",
+          "b. SHOW ERRORS",
+          "c. EXHIBIT ERRORS"
+        ],
+        "Respuesta_correcta": "SHOW ERRORS"
+      },
+      {
+        "Pregunta": "En una consulta multitabla las condiciones de composición aparecen en:",
+        "Respuestas": [
+          "a. En el WHERE.",
+          "b. En el SELECT.",
+          "c. En el FROM."
+        ],
+        "Respuesta_correcta": "En el WHERE."
+      },
+      {
+        "Pregunta": "Las condiciones de búsqueda compuesta sirven para:",
+        "Respuestas": [
+          "a. Ambas son correctas",
+          "b. Usar las palabras claves AND, OR, NOT y los paréntesis para formar condiciones complejas.",
+          "c. Combinar varias condiciones de búsqueda."
+        ],
+        "Respuesta_correcta": "Ambas son correctas"
+      },
+      {
+        "Pregunta": "¿Por qué las bases de datos de grafos son adecuadas para aplicaciones que involucran redes sociales y sistemas de recomendación?",
+        "Respuestas": [
+          "a. Por su capacidad para almacenar datos en columnas.",
+          "b. Por su eficiencia en operaciones de escritura.",
+          "c. Por su capacidad para modelar relaciones complejas entre nodos y realizar consultas avanzadas."
+        ],
+        "Respuesta_correcta": "Por su capacidad para modelar relaciones complejas entre nodos y realizar consultas avanzadas."
+      },
+      {
+        "Pregunta": "¿Por qué se llaman bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Porque representan algo más que solo SQL.",
+          "c. Porque están en contra del SQL."
+        ],
+        "Respuesta_correcta": "Porque representan algo más que solo SQL."
+      },
+      {
+        "Pregunta": "En un test de correspondencia con patrón LIKE, el carácter comodín % se utiliza para:",
+        "Respuestas": [
+          "a. Indicar que en su lugar puede ir cualquier cadena de caracteres.",
+          "b. Indicar que en su lugar puede ir cualquier carácter.",
+          "c. Indicar que en su lugar puede ir cualquier columna."
+        ],
+        "Respuesta_correcta": "Indicar que en su lugar puede ir cualquier cadena de caracteres."
+      },
+      {
+        "Pregunta": "La forma de eliminar un procedimiento almacenado en el lenguaje PL/SQL es:",
+        "Respuestas": [
+          "a. DELETE PROCEDURE",
+          "b. REMOVE PROCECURE",
+          "c. DROP PROCEDURE"
+        ],
+        "Respuesta_correcta": "DROP PROCEDURE"
+      },
+      {
+        "Pregunta": "Una composición con criterios de selección de fila es:",
+        "Respuestas": [
+          "a. La unión de varias consultas SQL, ambas con la misma condición WHERE.",
+          "b. Una consulta SQL con dos tablas, indicando en la cláusula WHERE condiciones de búsqueda diferentes a las columnas de emparejamiento.",
+          "c. Una consulta SQL con dos tablas, indicando en la lista de selección del SELECT columnas de ambas tablas."
+        ],
+        "Respuesta_correcta": "Una consulta SQL con dos tablas, indicando en la cláusula WHERE condiciones de búsqueda diferentes a las columnas de emparejamiento."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes es una base de datos documental?",
+        "Respuestas": [
+          "a. Apache Cassandra.",
+          "b. Redis.",
+          "c. MongoDB."
+        ],
+        "Respuesta_correcta": "MongoDB."
+      },
+      {
+        "Pregunta": "Las bases de datos clave-valor se caracterizan por::",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Estructurar los datos en columnas en lugar de filas.",
+          "c. Almacenar la información en ficheros con formato XML o JSON."
+        ],
+        "Respuesta_correcta": "Ninguna es correcta."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, ¿qué unidad léxica consiste en una aclaración que el programador incluye en el código?:",
+        "Respuestas": [
+          "a. Literal.",
+          "b. Identificador.",
+          "c. Comentario."
+        ],
+        "Respuesta_correcta": "Comentario."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta:",
+        "Respuestas": [
+          "a. Ambas son correctas",
+          "b. Un ejemplo de excepciones predefinidas son TOO_MANY_ROWS o NO_DATA_FOUND.",
+          "c. Un ejemplo de excepciones definidas por el usuario son TOO_MANY_ROWS o NO_DATA_FOUND."
+        ],
+        "Respuesta_correcta": "Un ejemplo de excepciones predefinidas son TOO_MANY_ROWS o NO_DATA_FOUND."
+      },
+      {
+        "Pregunta": "Una de las principales características de Redis es:",
+        "Respuestas": [
+          "a. Que almacena la información en columnas en lugar de en filas.",
+          "b. Que trabaja en memoria.",
+          "c. Que trabaja con datos semiestructurados como documentos XML o JSON."
+        ],
+        "Respuesta_correcta": "Que trabaja en memoria."
+      },
+      {
+        "Pregunta": "En MongoDB, el operador $lte significa:",
+        "Respuestas": [
+          "a. Menor que.",
+          "b. Menor o igual que.",
+          "c. Mayor o igual que."
+        ],
+        "Respuesta_correcta": "Menor o igual que."
+      },
+      {
+        "Pregunta": "¿Cómo dispara un usuario sus propias excepciones?",
+        "Respuestas": [
+          "a. LAUNCH nombre_excepcion",
+          "b. RAISE nombre_excepcion",
+          "c. RETURN nombre_excepcion"
+        ],
+        "Respuesta_correcta": "RAISE nombre_excepcion"
+      },
+      {
+        "Pregunta": "¿Cómo podemos crear una base de datos en MongoDB?",
+        "Respuestas": [
+          "a. Con use nombre_basedatos.",
+          "b. Con Create DataBase.",
+          "c. No se pueden crear bases de datos desde la línea de comandos."
+        ],
+        "Respuesta_correcta": "Con use nombre_basedatos."
+      },
+      {
+        "Pregunta": "La estructura de un bloque en un procedimiento almacenado se compone por:",
+        "Respuestas": [
+          "a. Sección declarativa, de ejecución y de excepciones.",
+          "b. Sección declarativa, de ejecución y de rutinas.",
+          "c. Sección declarativa y de ejecución."
+        ],
+        "Respuesta_correcta": "Sección declarativa, de ejecución y de excepciones."
+      },
+      {
+        "Pregunta": "Si hablamos de un objeto que se asocia a una tabla y se ejecuta automáticamente cuando ocurre un evento específico en dicha tabla, estamos hablando de:",
+        "Respuestas": [
+          "a. Un procedimiento almacenado.",
+          "b. Una función.",
+          "c. Un trigger."
+        ],
+        "Respuesta_correcta": "Un trigger."
+      },
+      {
+        "Pregunta": "¿Qué comando debemos usar para insertar un único documento en MongoDB?",
+        "Respuestas": [
+          "a. db.NombreColección.insertOne.",
+          "b. db.NombreColección.insertMany.",
+          "c. db.NombreColección.insertOnly."
+        ],
+        "Respuesta_correcta": "db.NombreColección.insertOne."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado en el lenguaje PL/SQL, ¿El usuario puede definir manejadores para las excepciones?",
+        "Respuestas": [
+          "a. Sí, en el bloque de excepciones del procedimiento.",
+          "b. Sí, dentro de la sección de ejecución del procedimiento.",
+          "c. No, el usuario no puede definir sus propios manejadores de excepciones."
+        ],
+        "Respuesta_correcta": "Sí, en el bloque de excepciones del procedimiento."
+      },
+      {
+        "Pregunta": "En una consulta SQL, ¿qué es una composición?",
+        "Respuestas": [
+          "a. El proceso de formar filas uniendo el resultado de dos consultas SQL.",
+          "b. El proceso de formar filas haciendo coincidir los contenidos de las columnas relacionadas de varias tablas.",
+          "c. El proceso de componer un resultado con una sentencia SELECT."
+        ],
+        "Respuesta_correcta": "El proceso de formar filas haciendo coincidir los contenidos de las columnas relacionadas de varias tablas."
+      },
+      {
+        "Pregunta": "¿Cuál es el comando para realizar búsquedas en MongoDB?",
+        "Respuestas": [
+          "a. find",
+          "b. look",
+          "c. select"
+        ],
+        "Respuesta_correcta": "find"
+      },
+      {
+        "Pregunta": "Los cursores pueden ser:",
+        "Respuestas": [
+          "a. Implícitos.",
+          "b. Explícitos.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En SQL, una subconsulta es:",
+        "Respuestas": [
+          "a. Una consulta con dos tablas.",
+          "b. La unión de dos consultas.",
+          "c. Una consulta dentro de otra."
+        ],
+        "Respuesta_correcta": "Una consulta dentro de otra."
+      },
+      {
+        "Pregunta": "¿Cuál es una de las características destacadas de Studio 3T para MongoDB?",
+        "Respuestas": [
+          "a. Integración con servicios en la nube como AWS y Google Cloud.",
+          "b. Exploración y visualización de datos en formato CSV.",
+          "c. Generación de código en lenguajes de programación como JavaScript, Python y Java."
+        ],
+        "Respuesta_correcta": "Generación de código en lenguajes de programación como JavaScript, Python y Java."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado del lenguaje PL/SQL, las sentencias SQL a ejecutar se indica después de la palabra:",
+        "Respuestas": [
+          "a. AS o IS",
+          "b. CREATE PROCEDURE",
+          "c. BEGIN"
+        ],
+        "Respuesta_correcta": "BEGIN"
+      },
+      {
+        "Pregunta": "El resultado de una consulta con varias tablas sin ninguna condición en el WHERE, es:",
+        "Respuestas": [
+          "a. Una tabla con todas las columnas de todas las tablas, y una fila por cada fila de cada tabla.",
+          "b. Una tabla con todas las columnas de todas las tablas, y una fila por cada combinación posible entre filas de las tablas.",
+          "c. Una tabla con las columnas de la primera tabla y una fila por cada combinación posible entre filas de las tablas."
+        ],
+        "Respuesta_correcta": "Una tabla con todas las columnas de todas las tablas, y una fila por cada combinación posible entre filas de las tablas."
+      },
+      {
+        "Pregunta": "¿Qué ventaja ofrece la estructura de columnas en las bases de datos de columnas en comparación con las bases de datos SQL tradicionales?",
+        "Respuestas": [
+          "a. Compresión más eficiente de los datos.",
+          "b. Mayor velocidad de escritura.",
+          "c. Mayor eficiencia en consultas que involucran subconjuntos de filas"
+        ],
+        "Respuesta_correcta": "Compresión más eficiente de los datos."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, ¿Qué función usamos para imprimir por pantalla?",
+        "Respuestas": [
+          "a. dbms_output.put_line()",
+          "b. dbms_output.print_line()",
+          "c. dbms_output.print()"
+        ],
+        "Respuesta_correcta": "dbms_output.put_line()"
+      },
+      {
+        "Pregunta": "La función interna AVG de SQL calcula:",
+        "Respuestas": [
+          "a. La media de un conjunto de valores.",
+          "b. Cuenta el número de valores que hay en un conjunto.",
+          "c. La suma de un conjunto de valores."
+        ],
+        "Respuesta_correcta": "La media de un conjunto de valores."
+      },
+      {
+        "Pregunta": "Una subconsulta en SQL:",
+        "Respuestas": [
+          "a. Solo puede referirse a columnas de la subconsulta.",
+          "b. Solo puede hacer referencia a una columna de la consulta principal.",
+          "c. Puede hacer referencia tanto a columnas de la subconsulta como de la consulta principal."
+        ],
+        "Respuesta_correcta": "Puede hacer referencia tanto a columnas de la subconsulta como de la consulta principal."
+      },
+      {
+        "Pregunta": "La siguiente sentencia SQL: SELECT EMPRESA FROM CLIENTES WHERE EMPRESA LIKE '%$%' mostrará:",
+        "Respuestas": [
+          "a. Todas las empresas",
+          "b. Las empresas con un caracter % en su nombre",
+          "c. Las empresas con un caracter $ en su nombre."
+        ],
+        "Respuesta_correcta": "Las empresas con un caracter $ en su nombre."
+      },
+      {
+        "Pregunta": "¿Con qué otro nombre se conoce a las bases de datos no relacionales?",
+        "Respuestas": [
+          "a. NoSQL.",
+          "b. NoRel.",
+          "c. NoDB."
+        ],
+        "Respuesta_correcta": "NoSQL."
+      },
+      {
+        "Pregunta": "¿Qué bases de datos trabaja con documentos BSON?",
+        "Respuestas": [
+          "a. MongoDB.",
+          "b. CouchDB.",
+          "c. Redis."
+        ],
+        "Respuesta_correcta": "MongoDB."
+      },
+      {
+        "Pregunta": "¿Qué herramienta de Oracle nos permite la automatización de tareas y la creación de jobs?",
+        "Respuestas": [
+          "a. DBMS_SCHEDULER",
+          "b. DBMS_JOBS",
+          "c. DBMS_TASK"
+        ],
+        "Respuesta_correcta": "DBMS_SCHEDULER"
+      },
+      {
+        "Pregunta": "Cuando hacemos consultas con dos o más tablas, y en estas tablas hay columnas que se llaman igual:",
+        "Respuestas": [
+          "a. SQL sabe distinguir qué columna es de cada tabla en la consulta.",
+          "b. Tenemos que indicarle a SQL con nombres cualificados a qué tabla pertenece cada columna.",
+          "c. No existen problemas de ambigüedad."
+        ],
+        "Respuesta_correcta": "Tenemos que indicarle a SQL con nombres cualificados a qué tabla pertenece cada columna."
+      },
+      {
+        "Pregunta": "En una consulta SQL multitabla, ¿Qué es una equicomposición?",
+        "Respuestas": [
+          "a. Hacer una consulta entre dos tablas con los mismos atributos.",
+          "b. Hacer una consulta entre dos tablas comparando dos columnas.",
+          "c. Hacer una consulta entre dos tablas con el mismo número de registros."
+        ],
+        "Respuesta_correcta": "Hacer una consulta entre dos tablas comparando dos columnas."
+      },
+      {
+        "Pregunta": "Señala la opción correcta:",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Cypher es un lenguaje de consulta específico para grafos.",
+          "c. Atlas es un servicio en la nube que permite trabajar con Riak."
+        ],
+        "Respuesta_correcta": "Cypher es un lenguaje de consulta específico para grafos."
+      },
+      {
+        "Pregunta": "En las condiciones de búsqueda de una consulta SELECT de SQL, el test de rango es equivalente a usar:",
+        "Respuestas": [
+          "a. Un test de pertenencia a conjunto.",
+          "b. Dos test de comparación.",
+          "c. Un test de comparación."
+        ],
+        "Respuesta_correcta": "Dos test de comparación."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, los operadores aritméticos, operadores lógicos y operadores relacionales entran en el grupo de unidad léxica:",
+        "Respuestas": [
+          "a. Delimitador.",
+          "b. Literal.",
+          "c. Identificador."
+        ],
+        "Respuesta_correcta": "Delimitador."
+      },
+      {
+        "Pregunta": "En SQL, una subconsulta puede aparecer en:",
+        "Respuestas": [
+          "a. La cláusula WHERE.",
+          "b. La cláusula FROM.",
+          "c. La cláusula ORDER BY."
+        ],
+        "Respuesta_correcta": "La cláusula WHERE."
+      },
+      {
+        "Pregunta": "La cláusula WHERE la usamos para:",
+        "Respuestas": [
+          "a. Indicar la tabla de la que queremos recuperar los datos.",
+          "b. Indicar las filas de las que queremos recuperar los datos.",
+          "c. Indicar las columnas de las que queremos recuperar los datos."
+        ],
+        "Respuesta_correcta": "Indicar las filas de las que queremos recuperar los datos."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de bucle LOOP del lenguaje PL/SQL es correcta?",
+        "Respuestas": [
+          "a. LOOP --Instrucciones END LOOP;",
+          "b. LOOP --Instrucciones IF (expresión) THEN --Instrucciones END IF; END LOOP;",
+          "c. LOOP --Instrucciones IF (expresión) THEN --Instrucciones EXIT; END IF; END LOOP;"
+        ],
+        "Respuesta_correcta": "LOOP --Instrucciones IF (expresión) THEN --Instrucciones EXIT; END IF; END LOOP;"
+      },
+      {
+        "Pregunta": "¿A qué hacen referencia las cláusulas BEFORE, AFTER e INSTEAD OF en un trigger?",
+        "Respuestas": [
+          "a. Al momento en el que se crea el disparador",
+          "b. Ninguna es correcta",
+          "c. Al momento en el que debe ejecutarse el disparador"
+        ],
+        "Respuesta_correcta": "Al momento en el que debe ejecutarse el disparador"
+      },
+      {
+        "Pregunta": "¿Qué operador debemos usar cuando queremos aplicar filtros o condiciones dentro de un array en MongoDB?",
+        "Respuestas": [
+          "a. $aggregate.",
+          "b. $elemMatch.",
+          "c. $match."
+        ],
+        "Respuesta_correcta": "$elemMatch."
+      },
+      {
+        "Pregunta": "En un SGBD, el lenguaje que se usa para consultar y manipular la información de la base de datos es:",
+        "Respuestas": [
+          "a. DDL",
+          "b. DML",
+          "c. DCL"
+        ],
+        "Respuesta_correcta": "DML"
+      },
+      {
+        "Pregunta": "Si queremos utilizar un test de rango en una consulta SQL, lo haremos usando:",
+        "Respuestas": [
+          "a. IN ... NOT IN",
+          "b. Los operadores <,>...",
+          "c. BETWEEN ... AND"
+        ],
+        "Respuesta_correcta": "BETWEEN ... AND"
+      },
+      {
+        "Pregunta": "Al programar un procedimiento almacenado, en una estructura condicional IF, ¿cuántas condiciones anidadas pueden indicarse?",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Una o varias",
+          "c. Solo una"
+        ],
+        "Respuesta_correcta": "Una o varias"
+      },
+      {
+        "Pregunta": "Señala la respuesta falsa con respecto a las bases de datos NoSQL:",
+        "Respuestas": [
+          "a. Un elemento clave de muchas bases de datos NoSQL es su capacidad para escalar horizontalmente.",
+          "b. No todas las bases de datos NoSQL admiten operaciones para consultar y buscar datos.",
+          "c. La mayoría de las bases de datos NoSQL admiten la creación de índices."
+        ],
+        "Respuesta_correcta": "No todas las bases de datos NoSQL admiten operaciones para consultar y buscar datos."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta:",
+        "Respuestas": [
+          "a. El operador NEW hace referencia a los valores nuevos de la fila después de la operación que activó el trigger.",
+          "b. Ambas son correctas.",
+          "c. El operador OLD hace referencia a los valores antiguos de la fila antes de la operación que activó el trigger."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de control de flujo IF del lenguaje PL/SQL es correcta?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. IF (expresión) THEN --Instrucciones ELSIF (expresión) --Instrucciones END IF;",
+          "c. IF (expresión) THEN --Instrucciones ELSE --Instrucciones END IF;"
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Por qué las bases de datos de grafos son adecuadas para aplicaciones que involucran redes sociales y sistemas de recomendación?",
+        "Respuestas": [
+          "a. Por su eficiencia en operaciones de escritura.",
+          "b. Por su capacidad para almacenar datos en columnas.",
+          "c. Por su capacidad para modelar relaciones complejas entre nodos y realizar consultas avanzadas."
+        ],
+        "Respuesta_correcta": "Por su capacidad para modelar relaciones complejas entre nodos y realizar consultas avanzadas."
+      },
+      {
+        "Pregunta": "En el lenguaje PL/SQL, los comentarios pueden indicarse:",
+        "Respuestas": [
+          "a. Con -- Si son comentarios de una sola línea.",
+          "b. Ambas son correctas.",
+          "c. Con /* */ si son comentarios de varias líneas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Por qué las bases de datos NoSQL se consideran una alternativa a las bases de datos relacionales?",
+        "Respuestas": [
+          "a. Pueden manejar grandes volúmenes de datos.",
+          "b. Se basan en el modelo de tablas relacionales.",
+          "c. Ofrecen soporte exclusivo para SQL."
+        ],
+        "Respuesta_correcta": "Pueden manejar grandes volúmenes de datos."
+      },
+      {
+        "Pregunta": "Para crear un procedimiento almacenado, debemos hacerlo empezando con las palabras:",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. CREATE OR REPLACE PROCEDURE",
+          "c. CREATE PROCEDURE"
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En MongoDB, el operador $lte significa:",
+        "Respuestas": [
+          "a. Menor que.",
+          "b. Mayor o igual que.",
+          "c. Menor o igual que."
+        ],
+        "Respuesta_correcta": "Menor o igual que."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado del lenguaje PL/SQL, si no se especifica el tipo de datos de cada parámetro, se asumen que son de tipo:",
+        "Respuestas": [
+          "a. IN OUT",
+          "b. OUT",
+          "c. IN"
+        ],
+        "Respuesta_correcta": "IN"
+      },
+      {
+        "Pregunta": "En el lenguaje PL/SQL, ¿cómo se puede llamar a una función?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Creando un bloque PL/SQL.",
+          "c. Mediante una consulta usando FROM DUAL."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Cómo se elimina una colección en MongoDB?",
+        "Respuestas": [
+          "a. db.Colección.drop().",
+          "b. db.Colección.erase().",
+          "c. db.Colección.delete()."
+        ],
+        "Respuesta_correcta": "db.Colección.drop()."
+      },
+      {
+        "Pregunta": "¿Cómo podemos ejecutar un procedimiento almacenado que ya hemos creado?",
+        "Respuestas": [
+          "a. Usando la sentencia LLAMADA_A nombre_procedimiento() y pasándole los parámetros, si los tiene.",
+          "b. Usando la sentencia EXEC nombre_procedimiento() y pasándole los parámetros, si los tiene.",
+          "c. Usando la sentencia EJECUTAR nombre_procedimiento() y pasándole los parámetros, si los tiene."
+        ],
+        "Respuesta_correcta": "Usando la sentencia EXEC nombre_procedimiento() y pasándole los parámetros, si los tiene."
+      },
+      {
+        "Pregunta": "¿Qué tipo de base de datos NoSQL se estructura en nodos y aristas?",
+        "Respuestas": [
+          "a. Basada en grafos.",
+          "b. Clave-valor.",
+          "c. Documental."
+        ],
+        "Respuesta_correcta": "Basada en grafos."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes es una técnica de control de transacciones?",
+        "Respuestas": [
+          "a. Bloqueo de lectura y escritura.",
+          "b. Bloqueo de lectura y ejecución.",
+          "c. Bloque de escritura y ejecución."
+        ],
+        "Respuesta_correcta": "Bloqueo de lectura y escritura."
+      },
+      {
+        "Pregunta": "Si se utiliza una subconsulta en una consulta, comparándola con algún operador de comparación <, >, =:",
+        "Respuestas": [
+          "a. La subconsulta puede devolver varios resultados.",
+          "b. La subconsulta debe devolver un único resultado con el resultado de una subconsulta.",
+          "c. No se puede usar el operador"
+        ],
+        "Respuesta_correcta": "La subconsulta debe devolver un único resultado con el resultado de una subconsulta."
+      },
+      {
+        "Pregunta": "¿Cómo se les llama a las columnas que se utilizan para hacer una composición entre dos tablas, en una consulta multitabla?",
+        "Respuestas": [
+          "a. Columnas de unión.",
+          "b. Columnas de intersección.",
+          "c. Columnas de emparejamiento."
+        ],
+        "Respuesta_correcta": "Columnas de emparejamiento."
+      },
+      {
+        "Pregunta": "Cuando hablamos de las propiedades ACID de una transacción, a qué nos referimos cuando hablamos de atomicidad:",
+        "Respuestas": [
+          "a. A que se garantiza que todas las operaciones de una transacción se ejecuten como una unidad atómica.",
+          "b. A que cada transacción se debe ejecutar de manera aislada.",
+          "c. A que una vez se ha confirmado la transacción, todos los cambios realizados se mantendrán de manera permanente."
+        ],
+        "Respuesta_correcta": "A que se garantiza que todas las operaciones de una transacción se ejecuten como una unidad atómica."
+      },
+      {
+        "Pregunta": "¿Qué base datos ofrece una capa de abstracción llamada CQL?",
+        "Respuestas": [
+          "a. Neo4j.",
+          "b. Apache Cassandra.",
+          "c. Riak."
+        ],
+        "Respuesta_correcta": "Apache Cassandra."
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes estructuras de bucle WHILE del lenguaje PL/SQL es correcta?",
+        "Respuestas": [
+          "a. WHILE (expresión) LOOP --Instrucciones END LOOP;",
+          "b. WHILE LOOP (expresión) --Instrucciones END LOOP;",
+          "c. WHILE --Instrucciones LOOP (expresión) END LOOP;"
+        ],
+        "Respuesta_correcta": "WHILE (expresión) LOOP --Instrucciones END LOOP;"
+      },
+      {
+        "Pregunta": "Las variables pueden ser:",
+        "Respuestas": [
+          "a. Ambas son correctas",
+          "b. De usuario",
+          "c. Del sistema"
+        ],
+        "Respuesta_correcta": "Ambas son correctas"
+      },
+      {
+        "Pregunta": "¿Qué ventaja ofrece la estructura de columnas en las bases de datos de columnas en comparación con las bases de datos SQL tradicionales?",
+        "Respuestas": [
+          "a. Compresión más eficiente de los datos.",
+          "b. Mayor eficiencia en consultas que involucran subconjuntos de filas",
+          "c. Mayor velocidad de escritura."
+        ],
+        "Respuesta_correcta": "Compresión más eficiente de los datos."
+      },
+      {
+        "Pregunta": "Para pasar argumentos a un procedimiento almacenado, podemos usar la notación posicional, que consiste en:",
+        "Respuestas": [
+          "a. Pasar los valores de los parámetros en el mismo orden en el que se definen en el CREATE PROCEDURE.",
+          "b. Pasar los valores de los parámetros, sin importar la posición de los mismos.",
+          "c. Pasar los valores de los parámetros, ordenados por orden alfabético."
+        ],
+        "Respuesta_correcta": "Pasar los valores de los parámetros en el mismo orden en el que se definen en el CREATE PROCEDURE."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta sobre la composición completa:",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. En MySQL podemos hacerla con FULL OUTER JOIN.",
+          "c. En MySQL debemos simularla mediante la UNION de una consulta con LEFT JOIN y otra con RIGHT JOIN."
+        ],
+        "Respuesta_correcta": "En MySQL debemos simularla mediante la UNION de una consulta con LEFT JOIN y otra con RIGHT JOIN."
+      },
+      {
+        "Pregunta": "El objetivo de crear procedimientos almacenados es para:",
+        "Respuestas": [
+          "a. Tener una lista de consultas realizadas con recurrencia.",
+          "b. Poder automatizar acciones en la base de datos.",
+          "c. Que no se nos pierdan las consultas que hemos creado."
+        ],
+        "Respuesta_correcta": "Poder automatizar acciones en la base de datos."
+      },
+      {
+        "Pregunta": "¿Por qué Redis es ampliamente utilizado en aplicaciones web?",
+        "Respuestas": [
+          "a. Porque es una base de datos relacional muy potente.",
+          "b. Debido a su capacidad para mejorar el rendimiento y reducir la carga en las bases de datos tradicionales al actuar como caché en memoria.",
+          "c. Por su facilidad para realizar transacciones complejas."
+        ],
+        "Respuesta_correcta": "Debido a su capacidad para mejorar el rendimiento y reducir la carga en las bases de datos tradicionales al actuar como caché en memoria."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta respecto a las bases de datos NoSQL:",
+        "Respuestas": [
+          "a. La elección de una base de datos adecuada depende de las necesidades específicas de cada proyecto.",
+          "b. Son extremadamente costosas.",
+          "c. No pueden manejar grandes volúmenes de datos."
+        ],
+        "Respuesta_correcta": "La elección de una base de datos adecuada depende de las necesidades específicas de cada proyecto."
+      },
+      {
+        "Pregunta": "¿De qué forma se puede declarar una variable en PL/SQL?",
+        "Respuestas": [
+          "a. nombre_variable : valor_inicial;",
+          "b. Ambas son correctas.",
+          "c. nombre_variable ;"
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En las condiciones de búsqueda de una consulta SELECT de SQL, el test de rango es equivalente a usar:",
+        "Respuestas": [
+          "a. Un test de comparación.",
+          "b. Un test de pertenencia a conjunto.",
+          "c. Dos test de comparación."
+        ],
+        "Respuesta_correcta": "Dos test de comparación."
+      },
+      {
+        "Pregunta": "En una consulta SQL, el test de comparación =, cuando la columna es una clave primaria y existe coincidencia:",
+        "Respuestas": [
+          "a. Devuelve una única fila de resultados.",
+          "b. Este test no se puede realizar con una clave primaria.",
+          "c. Devuelve todas las filas que coincidan con la comparación."
+        ],
+        "Respuesta_correcta": "Devuelve una única fila de resultados."
+      },
+      {
+        "Pregunta": "¿Qué utilidad tienen los alias que se asignan a las tablas en las consultas?",
+        "Respuestas": [
+          "a. Sirven para eliminar ambigüedades entre los nombres de las tablas.",
+          "b. Sirven para eliminar ambigüedades entre los nombres de las filas de las tablas.",
+          "c. Sirven para eliminar ambigüedades entre los nombres de columnas de las tablas."
+        ],
+        "Respuesta_correcta": "Sirven para eliminar ambigüedades entre los nombres de columnas de las tablas."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, si deseamos crear una variable donde almacenar la fecha y la hora, usaremos el tipo de dato:",
+        "Respuestas": [
+          "a. DATEANDHOUR",
+          "b. DATETIME",
+          "c. DATE"
+        ],
+        "Respuesta_correcta": "DATETIME"
+      },
+      {
+        "Pregunta": "En una cláusula SELECT podemos indicar una lista de:",
+        "Respuestas": [
+          "a. Constantes o expresiones SQL.",
+          "b. Ambas son correctas.",
+          "c. Nombres de columnas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "En un SGBD, el lenguaje que se usa para consultar y manipular la información de la base de datos es:",
+        "Respuestas": [
+          "a. DML",
+          "b. DDL",
+          "c. DCL"
+        ],
+        "Respuesta_correcta": "DML"
+      },
+      {
+        "Pregunta": "¿Por qué se llaman bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Porque representan algo más que solo SQL.",
+          "c. Porque están en contra del SQL."
+        ],
+        "Respuesta_correcta": "Porque representan algo más que solo SQL."
+      },
+      {
+        "Pregunta": "¿Cuándo devuelve FALSE el test de comparación con subconsultas ALL?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Cuando alguna de las comparaciones con los resultados de la columna de la subconsulta es FALSE.",
+          "c. Cuando ninguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "¿Cuál de estas cláusulas es obligatoria en una sentencia SELECT?",
+        "Respuestas": [
+          "a. WHERE",
+          "b. FROM",
+          "c. INTO"
+        ],
+        "Respuesta_correcta": "FROM"
+      },
+      {
+        "Pregunta": "¿Cuál de las siguientes es una base de datos documental?",
+        "Respuestas": [
+          "a. MongoDB.",
+          "b. Apache Cassandra.",
+          "c. Redis."
+        ],
+        "Respuesta_correcta": "MongoDB."
+      },
+      {
+        "Pregunta": "¿Cuál es una de las principales razones por las que las bases de datos NoSQL han ganado popularidad en los últimos años?",
+        "Respuestas": [
+          "a. Uso exclusivo de datos no estructurados",
+          "b. Mayor simplicidad en la estructura de datos",
+          "c. Capacidad para escalar horizontalmente y flexibilidad en el esquema de datos"
+        ],
+        "Respuesta_correcta": "Capacidad para escalar horizontalmente y flexibilidad en el esquema de datos"
+      },
+      {
+        "Pregunta": "El operador $unwind sirve para:",
+        "Respuestas": [
+          "a. Descomponer los documentos de una colección en múltiples documentos, uno por cada elemento en el array",
+          "b. Seleccionar los documentos que cumplen ciertos criterios",
+          "c. Ninguna es correcta"
+        ],
+        "Respuesta_correcta": "Descomponer los documentos de una colección en múltiples documentos, uno por cada elemento en el array"
+      },
+      {
+        "Pregunta": "¿Cuál es la principal diferencia entre un procedimiento y una función?",
+        "Respuestas": [
+          "a. No existe ninguna diferencia.",
+          "b. Que en un procedimiento hay que devolver un valor, usando para ello RETURN.",
+          "c. Que en una función hay que devolver un valor, usando para ello RETURN."
+        ],
+        "Respuesta_correcta": "Que en una función hay que devolver un valor, usando para ello RETURN."
+      },
+      {
+        "Pregunta": "Observando la siguiente sentencia, ¿cuántas columnas tiene la tabla OFICINAS? SELECT CIUDAD, REGION, VENTAS FROM OFICINAS:",
+        "Respuestas": [
+          "a. La tabla oficinas tiene 4 columnas.",
+          "b. No podemos saberlo.",
+          "c. La tabla oficinas tiene 3 columnas."
+        ],
+        "Respuesta_correcta": "No podemos saberlo."
+      },
+      {
+        "Pregunta": "¿Por qué se llaman bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Porque están en contra del SQL.",
+          "b. Ambas son correctas.",
+          "c. Porque representan algo más que solo SQL."
+        ],
+        "Respuesta_correcta": "Porque representan algo más que solo SQL."
+      },
+      {
+        "Pregunta": "¿Cuándo devuelve FALSE el test de comparación con subconsultas ANY?",
+        "Respuestas": [
+          "a. Cuando alguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE.",
+          "b. Cuando ninguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE.",
+          "c. Cuando alguna de las comparaciones con los resultados de la columna de la subconsulta es FALSE."
+        ],
+        "Respuesta_correcta": "Cuando ninguna de las comparaciones con los resultados de la columna de la subconsulta es TRUE."
+      },
+      {
+        "Pregunta": "En una consulta SQL multitabla, ¿Qué es una equicomposición?",
+        "Respuestas": [
+          "a. Hacer una consulta entre dos tablas con el mismo número de registros.",
+          "b. Hacer una consulta entre dos tablas comparando dos columnas.",
+          "c. Hacer una consulta entre dos tablas con los mismos atributos."
+        ],
+        "Respuesta_correcta": "Hacer una consulta entre dos tablas comparando dos columnas."
+      },
+      {
+        "Pregunta": "¿Cómo dispara un usuario sus propias excepciones?",
+        "Respuestas": [
+          "a. RETURN nombre_excepcion",
+          "b. RAISE nombre_excepcion",
+          "c. LAUNCH nombre_excepcion"
+        ],
+        "Respuesta_correcta": "RAISE nombre_excepcion"
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, ¿Qué función usamos para imprimir por pantalla?",
+        "Respuestas": [
+          "a. dbms_output.put_line()",
+          "b. dbms_output.print()",
+          "c. dbms_output.print_line()"
+        ],
+        "Respuesta_correcta": "dbms_output.put_line()"
+      },
+      {
+        "Pregunta": "¿Es posible hacer JOINS o algo similar en MongoDB?",
+        "Respuestas": [
+          "a. No es posible hacer nada parecido.",
+          "b. Se puede usar el operador $lookup para simular un INNER JOIN.",
+          "c. Sí, MongoDB permite hacer todo tipo de Joins."
+        ],
+        "Respuesta_correcta": "Se puede usar el operador $lookup para simular un INNER JOIN."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, los operadores aritméticos, operadores lógicos y operadores relacionales entran en el grupo de unidad léxica:",
+        "Respuestas": [
+          "a. Literal.",
+          "b. Identificador.",
+          "c. Delimitador."
+        ],
+        "Respuesta_correcta": "Delimitador."
+      },
+      {
+        "Pregunta": "En una consulta multitabla las condiciones de composición aparecen en:",
+        "Respuestas": [
+          "a. En el FROM.",
+          "b. En el SELECT.",
+          "c. En el WHERE."
+        ],
+        "Respuesta_correcta": "En el WHERE."
+      },
+      {
+        "Pregunta": "¿Por qué las bases de datos de grafos son adecuadas para aplicaciones que involucran redes sociales y sistemas de recomendación?",
+        "Respuestas": [
+          "a. Por su capacidad para modelar relaciones complejas entre nodos y realizar consultas avanzadas.",
+          "b. Por su capacidad para almacenar datos en columnas.",
+          "c. Por su eficiencia en operaciones de escritura."
+        ],
+        "Respuesta_correcta": "Por su capacidad para modelar relaciones complejas entre nodos y realizar consultas avanzadas."
+      },
+      {
+        "Pregunta": "MongoDB y CouchDB son ejemplos de:",
+        "Respuestas": [
+          "a. Bases de datos documentales.",
+          "b. Bases de datos clave-valor.",
+          "c. Bases de datos basadas en grafos."
+        ],
+        "Respuesta_correcta": "Bases de datos documentales."
+      },
+      {
+        "Pregunta": "¿Cuál es una de las principales razones por las que las bases de datos NoSQL han ganado popularidad en los últimos años?",
+        "Respuestas": [
+          "a. Uso exclusivo de datos no estructurados",
+          "b. Mayor simplicidad en la estructura de datos",
+          "c. Capacidad para escalar horizontalmente y flexibilidad en el esquema de datos"
+        ],
+        "Respuesta_correcta": "Capacidad para escalar horizontalmente y flexibilidad en el esquema de datos"
+      },
+      {
+        "Pregunta": "¿Cuál es una de las principales características de MongoDB que lo ha hecho popular en una amplia variedad de aplicaciones?",
+        "Respuestas": [
+          "a. Su modelo de datos basado en documentos y su escalabilidad.",
+          "b. Su capacidad para almacenar datos en formato CSV.",
+          "c. Su enfoque en consultas de alto rendimiento."
+        ],
+        "Respuesta_correcta": "Su modelo de datos basado en documentos y su escalabilidad."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado del lenguaje PL/SQL, la declaración de variables locales se indica después de la palabra:",
+        "Respuestas": [
+          "a. Ambas son correctas",
+          "b. AS",
+          "c. IS"
+        ],
+        "Respuesta_correcta": "Ambas son correctas"
+      },
+      {
+        "Pregunta": "¿Qué sentencia debemos usar si queremos obtener la fila actual de un cursor y avanzar a la siguiente?",
+        "Respuestas": [
+          "a. FETCH",
+          "b. OPEN",
+          "c. EXIT"
+        ],
+        "Respuesta_correcta": "FETCH"
+      },
+      {
+        "Pregunta": "Cuando hablamos de una secuencia de operaciones que se ejecutan como una unidad indivisible, nos referimos a:",
+        "Respuestas": [
+          "a. Una transacción.",
+          "b. Un COMMIT.",
+          "c. Una consulta SQL."
+        ],
+        "Respuesta_correcta": "Una transacción."
+      },
+      {
+        "Pregunta": "En una consulta multitabla puede haber:",
+        "Respuestas": [
+          "a. Condiciones de emparejamiento entre las tablas.",
+          "b. Condiciones de búsqueda de resultados en las tablas.",
+          "c. Ambas son correctas."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "Si se utiliza una subconsulta en una consulta, comparándola con algún operador de comparación <, >, =:",
+        "Respuestas": [
+          "a. La subconsulta puede devolver varios resultados.",
+          "b. No se puede usar el operador",
+          "c. La subconsulta debe devolver un único resultado con el resultado de una subconsulta."
+        ],
+        "Respuesta_correcta": "La subconsulta debe devolver un único resultado con el resultado de una subconsulta."
+      },
+      {
+        "Pregunta": "¿Qué operador debemos usar cuando queremos aplicar filtros o condiciones dentro de un array en MongoDB?",
+        "Respuestas": [
+          "a. $match.",
+          "b. $elemMatch.",
+          "c. $aggregate."
+        ],
+        "Respuesta_correcta": "$elemMatch."
+      },
+      {
+        "Pregunta": "En una consulta SQL multitabla, la selección de todas las columnas (SELECT *) mostrará:",
+        "Respuestas": [
+          "a. Todas las columnas de la primera tabla que aparece en la consulta.",
+          "b. Todas las columnas de todas las tablas que participan en la consulta.",
+          "c. Todas las columnas de la última tabla que aparece en la consulta."
+        ],
+        "Respuesta_correcta": "Todas las columnas de todas las tablas que participan en la consulta."
+      },
+      {
+        "Pregunta": "Señala la respuesta correcta:",
+        "Respuestas": [
+          "a. Un ejemplo de excepciones definidas por el usuario son TOO_MANY_ROWS o NO_DATA_FOUND.",
+          "b. Ambas son correctas",
+          "c. Un ejemplo de excepciones predefinidas son TOO_MANY_ROWS o NO_DATA_FOUND."
+        ],
+        "Respuesta_correcta": "Un ejemplo de excepciones predefinidas son TOO_MANY_ROWS o NO_DATA_FOUND."
+      },
+      {
+        "Pregunta": "¿Qué pasa si al hacer una composición INTERNA de dos tablas A y B, indicando una columna de emparejamiento, las tablas tienen valores NULL en esa columna?",
+        "Respuestas": [
+          "a. Que aparecerán las filas NULL de la tabla A, pero no las de la tabla B.",
+          "b. Que las filas con valores NULL no aparecerían en el resultado.",
+          "c. Que aparecerían también las filas de A y B con valores NULL en el resultado."
+        ],
+        "Respuesta_correcta": "Que las filas con valores NULL no aparecerían en el resultado."
+      },
+      {
+        "Pregunta": "De las tres secciones de la estructura de un bloque en un procedimiento almacenado, el único obligatorio es:",
+        "Respuestas": [
+          "a. La sección declarativa.",
+          "b. La sección de excepciones.",
+          "c. La sección de ejecución."
+        ],
+        "Respuesta_correcta": "La sección de ejecución."
+      },
+      {
+        "Pregunta": "¿Qué significa \"escalar horizontalmente\" en el contexto de las bases de datos NoSQL?",
+        "Respuestas": [
+          "a. Distribuir la carga de trabajo entre múltiples nodos o servidores",
+          "b. Incrementar la velocidad de lectura de la base de datos",
+          "c. Agregar más columnas a las tablas"
+        ],
+        "Respuesta_correcta": "Distribuir la carga de trabajo entre múltiples nodos o servidores"
+      },
+      {
+        "Pregunta": "En PL/SQL, ¿qué tipo de bucle se repite tantas veces como sea necesario mientras se cumple una expresión?",
+        "Respuestas": [
+          "a. FOR",
+          "b. LOOP",
+          "c. WHILE"
+        ],
+        "Respuesta_correcta": "WHILE"
+      },
+      {
+        "Pregunta": "¿Por qué surgen este tipo de bases de datos no relacionales?",
+        "Respuestas": [
+          "a. Ambas son correctas.",
+          "b. Porque proporcionan mayor flexibilidad.",
+          "c. Debido a las limitaciones del modelo relacional."
+        ],
+        "Respuesta_correcta": "Ambas son correctas."
+      },
+      {
+        "Pregunta": "Señala la respuesta falsa con respecto a las bases de datos NoSQL:",
+        "Respuestas": [
+          "a. Un elemento clave de muchas bases de datos NoSQL es su capacidad para escalar horizontalmente.",
+          "b. No todas las bases de datos NoSQL admiten operaciones para consultar y buscar datos.",
+          "c. La mayoría de las bases de datos NoSQL admiten la creación de índices."
+        ],
+        "Respuesta_correcta": "No todas las bases de datos NoSQL admiten operaciones para consultar y buscar datos."
+      },
+      {
+        "Pregunta": "¿Qué pasa si la condición de la función updateOne() coincide con más de un documento?",
+        "Respuestas": [
+          "a. Ninguna es correcta.",
+          "b. Solo se modificará el primero que encuentre.",
+          "c. Se modificarán todos los documentos que cumplan el filtro."
+        ],
+        "Respuesta_correcta": "Solo se modificará el primero que encuentre."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, la unidad léxica \"\"delimitador\"\" se refiere a:",
+        "Respuestas": [
+          "a. Unidades y objetos empleados para nombrar objetos de programas, así como unidades dentro del mismo.",
+          "b. Un símbolo simple o compuesto que tiene una función especial en los procedimientos almacenados.",
+          "c. Es un valor de tipo numérico, carácter, cadena o lógico no representado por un identificador."
+        ],
+        "Respuesta_correcta": "Un símbolo simple o compuesto que tiene una función especial en los procedimientos almacenados."
+      },
+      {
+        "Pregunta": "En MongoDB, el operador $lte significa:",
+        "Respuestas": [
+          "a. Menor que.",
+          "b. Menor o igual que.",
+          "c. Mayor o igual que."
+        ],
+        "Respuesta_correcta": "Menor o igual que."
+      },
+      {
+        "Pregunta": "En una sentencia SQL, la operación UNION ALL:",
+        "Respuestas": [
+          "a. Muestra el resultado de la unión de dos consultas, con todas las columnas de cada tabla.",
+          "b. Muestra los resultados de la unión de dos consultas con duplicados.",
+          "c. Muestra los resultados de la unión de dos consultas sin duplicados."
+        ],
+        "Respuesta_correcta": "Muestra los resultados de la unión de dos consultas con duplicados."
+      },
+      {
+        "Pregunta": "Una subconsulta en SQL:",
+        "Respuestas": [
+          "a. Solo puede referirse a columnas de la subconsulta.",
+          "b. Solo puede hacer referencia a una columna de la consulta principal.",
+          "c. Puede hacer referencia tanto a columnas de la subconsulta como de la consulta principal."
+        ],
+        "Respuesta_correcta": "Puede hacer referencia tanto a columnas de la subconsulta como de la consulta principal."
+      },
+      {
+        "Pregunta": "Si hablamos de un objeto que se asocia a una tabla y se ejecuta automáticamente cuando ocurre un evento específico en dicha tabla, estamos hablando de:",
+        "Respuestas": [
+          "a. Un procedimiento almacenado.",
+          "b. Una función.",
+          "c. Un trigger."
+        ],
+        "Respuesta_correcta": "Un trigger."
+      },
+      {
+        "Pregunta": "El resultado de una consulta con varias tablas sin ninguna condición en el WHERE, es:",
+        "Respuestas": [
+          "a. Una tabla con todas las columnas de todas las tablas, y una fila por cada fila de cada tabla.",
+          "b. Una tabla con todas las columnas de todas las tablas, y una fila por cada combinación posible entre filas de las tablas.",
+          "c. Una tabla con las columnas de la primera tabla y una fila por cada combinación posible entre filas de las tablas."
+        ],
+        "Respuesta_correcta": "Una tabla con todas las columnas de todas las tablas, y una fila por cada combinación posible entre filas de las tablas."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado, las constantes, cursores, variables, subprogramas y excepciones entran en el grupo de unidad léxica:",
+        "Respuestas": [
+          "a. Literal.",
+          "b. Delimitador.",
+          "c. Identificador."
+        ],
+        "Respuesta_correcta": "Identificador."
+      },
+      {
+        "Pregunta": "En SQL, una subconsulta es:",
+        "Respuestas": [
+          "a. Una consulta dentro de otra.",
+          "b. Una consulta con dos tablas.",
+          "c. La unión de dos consultas."
+        ],
+        "Respuesta_correcta": "Una consulta dentro de otra."
+      },
+      {
+        "Pregunta": "El producto cartesiano de dos tablas es una operación en la que se obtiene:",
+        "Respuestas": [
+          "a. Las relaciones entre la mitad de las tuplas de cada una de las tablas.",
+          "b. Todas las relaciones entre las tuplas de las dos tablas.",
+          "c. Todas las relaciones con significado entre las dos tuplas."
+        ],
+        "Respuesta_correcta": "Todas las relaciones entre las tuplas de las dos tablas."
+      },
+      {
+        "Pregunta": "¿Qué comando debemos usar para insertar un único documento en MongoDB?",
+        "Respuestas": [
+          "a. db.NombreColección.insertOnly.",
+          "b. db.NombreColección.insertOne.",
+          "c. db.NombreColección.insertMany."
+        ],
+        "Respuesta_correcta": "db.NombreColección.insertOne."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado en el lenguaje PL/SQL, ¿El usuario puede definir manejadores para las excepciones?",
+        "Respuestas": [
+          "a. No, el usuario no puede definir sus propios manejadores de excepciones.",
+          "b. Sí, en el bloque de excepciones del procedimiento.",
+          "c. Sí, dentro de la sección de ejecución del procedimiento."
+        ],
+        "Respuesta_correcta": "Sí, en el bloque de excepciones del procedimiento."
+      },
+      {
+        "Pregunta": "En un procedimiento almacenado del lenguaje PL/SQL, si no se especifica el tipo de datos de cada parámetro, se asumen que son de tipo:",
+        "Respuestas": [
+          "a. OUT",
+          "b. IN OUT",
+          "c. IN"
+        ],
+        "Respuesta_correcta": "IN"
+      }
+    ]
+  }
